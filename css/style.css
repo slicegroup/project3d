@@ -9,6 +9,13 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+=======
+html {
+    font-family: "RadikalW01-Regular";
+}
+
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
 body {
     background: #000e14;
     font-family: "RadikalW01-Regular";
@@ -16,7 +23,11 @@ body {
 
 canvas {
     position: absolute;
+<<<<<<< HEAD
     top: 0px;
+=======
+    top: -40px;
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
     left: 0;
     width: 100%;
     height: 100%;
@@ -133,8 +144,15 @@ header .nav-link {
 
 .s3d__navigation-link {
     display: none;
+<<<<<<< HEAD
 }
 
+=======
+
+}
+
+
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
 /* end section1 */
 
 /* 2prouct */
@@ -257,6 +275,10 @@ header .nav-link {
     height: 350px;
     padding: 40px;
     transform-style: preserve-3d;
+<<<<<<< HEAD
+=======
+
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
 }
 
 .card-product h1 {
@@ -337,7 +359,10 @@ header .nav-link {
 }
 
 /* blog */
+<<<<<<< HEAD
 
+=======
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
 .blog {
     cursor: pointer;
 }
@@ -372,6 +397,10 @@ header .nav-link {
     margin: 0px 10px;
     top: 8px;
     margin: 0px 10px 15px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
 }
 
 .blog-info p {
@@ -408,7 +437,10 @@ header .nav-link {
 }
 
 /* portafolio o overviews */
+<<<<<<< HEAD
 
+=======
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
 #info {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -430,6 +462,10 @@ header .nav-link {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
+<<<<<<< HEAD
+=======
+
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
 }
 
 #info a {
@@ -441,6 +477,10 @@ header .nav-link {
     margin: 5px 0 0 0;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
 .container {
     position: relative;
     width: 960px;
@@ -479,6 +519,10 @@ header .nav-link {
     margin-bottom: 5%;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
 #portfoliolist .portfolio {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -545,16 +589,29 @@ header .nav-link {
     top: -30px;
 }
 
+<<<<<<< HEAD
 /* #Tablet (Portrait) */
 
+=======
+
+
+
+
+/* #Tablet (Portrait) */
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     .container {
         width: 768px;
     }
 }
 
+<<<<<<< HEAD
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
 
+=======
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
 @media only screen and (max-width: 767px) {
     .container {
         width: 95%;
@@ -568,10 +625,18 @@ header .nav-link {
     #ads {
         display: none;
     }
+<<<<<<< HEAD
 }
 
 /* #Mobile (Landscape) - Note: Design for a width of 480px */
 
+=======
+
+}
+
+
+/* #Mobile (Landscape) - Note: Design for a width of 480px */
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .container {
         width: 70%;
@@ -580,12 +645,19 @@ header .nav-link {
     #ads {
         display: none;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
 }
 
 /* #Clearing */
 
 /* Self Clearing Goodness */
+<<<<<<< HEAD
 
+=======
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
 .container:after {
     content: "\0020";
     display: block;
