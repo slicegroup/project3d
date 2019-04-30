@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-*:before,
-*:after {
+*:before, *:after {
     box-sizing: border-box;
 }
 
@@ -20,7 +19,7 @@ body {
 
 canvas {
     position: absolute;
-    top: -25px;
+    top: 0px;
     left: 0;
     width: 100%;
     height: 100vh;
@@ -42,7 +41,6 @@ header .nav-link {
 }
 
 @import url(//db.onlinewebfonts.com/c/e7d643d9ae335eb641aeb0451aa390c2?family=RadikalW01-Regular);
-
 @font-face {
     font-family: "RadikalW01-Regular";
     src: url("//db.onlinewebfonts.com/t/e7d643d9ae335eb641aeb0451aa390c2.eot");
@@ -86,7 +84,7 @@ header .nav-link {
     font-weight: 800;
     text-align: center;
     margin: 20px;
-    font-size: 30px;
+    font-size: 35px;
     margin: 40px;
 }
 
@@ -138,9 +136,7 @@ header .nav-link {
 
 .s3d__navigation-link {
     display: none;
-
 }
-
 
 /* end section1 */
 
@@ -264,7 +260,6 @@ header .nav-link {
     height: 350px;
     padding: 40px;
     transform-style: preserve-3d;
-
 }
 
 .card-product h1 {
@@ -324,7 +319,7 @@ header .nav-link {
     font-weight: 800;
     text-align: center;
     margin: 20px;
-    font-size: 30px;
+    font-size: 35px;
     margin: 40px;
 }
 
@@ -345,6 +340,7 @@ header .nav-link {
 }
 
 /* blog */
+
 /* .blog {
     cursor: pointer;
 }
@@ -399,6 +395,7 @@ header .nav-link {
     /* display: flex;
     justify-content: center;
     align-items: center; */
+
 min-height: 80vh;
 width: 100%;
 }
@@ -414,6 +411,7 @@ width: 100%;
 .blog .slick-dots {
     padding: 70px 0;
 } */
+
 .blog img {
     display: block;
     max-width: 100%;
@@ -423,7 +421,6 @@ width: 100%;
 
 .blog .card-blog {
     display: block;
-
     perspective: 1000px;
     position: relative;
     transition: transform 0.1s ease;
@@ -527,8 +524,8 @@ width: 100%;
     border-bottom: 2px solid rgba(255, 255, 255, 0.7);
 }
 
-
 /* portafolio o overviews */
+
 #info {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -550,7 +547,6 @@ width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
-
 }
 
 #info a {
@@ -561,7 +557,6 @@ width: 100%;
 #info p {
     margin: 5px 0 0 0;
 }
-
 
 .portafolio .container {
     position: relative;
@@ -601,7 +596,6 @@ width: 100%;
 .pprtafolio h1 {
     margin-bottom: 5%;
 }
-
 
 #portfoliolist .portfolio {
     -webkit-box-sizing: border-box;
@@ -669,51 +663,44 @@ width: 100%;
     top: -30px;
 }
 
-
-
-
-
 /* #Tablet (Portrait) */
+
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     .container {
         width: 768px;
     }
 }
 
-
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
+
 @media only screen and (max-width: 767px) {
     .container {
         width: 95%;
     }
-
     #portfoliolist .portfolio {
         width: 48%;
         margin: 1%;
     }
-
     #ads {
         display: none;
     }
-
 }
 
-
 /* #Mobile (Landscape) - Note: Design for a width of 480px */
+
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .container {
         width: 70%;
     }
-
     #ads {
         display: none;
     }
-
 }
 
 /* #Clearing */
 
 /* Self Clearing Goodness */
+
 .container:after {
     content: "\0020";
     display: block;
@@ -722,10 +709,7 @@ width: 100%;
     visibility: hidden;
 }
 
-.clearfix:before,
-.clearfix:after,
-.row:before,
-.row:after {
+.clearfix:before, .clearfix:after, .row:before, .row:after {
     content: '\0020';
     display: block;
     overflow: hidden;
@@ -734,13 +718,11 @@ width: 100%;
     height: 0;
 }
 
-.row:after,
-.clearfix:after {
+.row:after, .clearfix:after {
     clear: both;
 }
 
-.row,
-.clearfix {
+.row, .clearfix {
     zoom: 1;
 }
 
@@ -756,18 +738,90 @@ width: 100%;
 .footer {
     background: #000e14;
     z-index: 2;
+    position: relative;
+    /* justify-content: center;
+    display: flex;
+    align-items: center; */
 }
 
-footer {
-    position: relative;
-    bottom: 133px;
+.footer li a {
+    color: #fff;
+    line-height: 2;
+}
+
+.footer p {
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.f-title {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* form */
+
+.footer h1 {
     color: #fff;
 }
 
-footer p {
+.group {
+    position: relative;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.group input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    background: transparent;
+}
+
+.group input:focus {
+    outline: none;
+}
+
+.group input:focus~label, .group input:valid~label {
+    top: -10px;
+    font-size: 14px;
+    color: #00589e;
+}
+
+.group label {
     position: absolute;
-    bottom: -380px;
-    /* background: red; */
-    width: 100%;
-    text-align: center;
+    color: #fff;
+    top: 12px;
+    left: 0;
+    transition: 0.2s ease all;
+}
+
+.bar {
+    position: relative;
+    display: block;
+    width: 320px;
+}
+
+.bar:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #00589e;
+    height: 2px;
+    transition: left 0.2s ease-out, right 0.2s ease-out;
+}
+
+input:focus~.bar:before {
+    left: 0;
+    right: 0;
 }

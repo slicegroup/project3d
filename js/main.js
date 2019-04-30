@@ -25,7 +25,8 @@ $(".titulo-banner").slick({
     centerMode: true,
     centerPadding: "60px",
     slidesToShow: 1,
-    // autoplay: f,
+    speed: 1000,
+    autoplay: true,
 
     arrows: true,
 
@@ -64,8 +65,9 @@ $(".slider-destacado").slick({
     // centerMode: true,
     centerPadding: "90px",
     slidesToShow: 3,
+    speed: 1000,
     slidesToScroll: 3,
-    autoplay: false,
+    autoplay: true,
     speed: 1000,
     dots: true,
     infinite: true,
