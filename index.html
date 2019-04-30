@@ -1,81 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" class="no-js">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Project3D</title>
     <link href="//db.onlinewebfonts.com/c/e7d643d9ae335eb641aeb0451aa390c2?family=RadikalW01-Regular" rel="stylesheet"
         type="text/css" />
-    <link rel="stylesheet" href="css/jquery.pageScroll3d.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/slick.min.css" />
-    <link rel="stylesheet" href="css/slick-theme.min.css" />
-    <!-- <link rel="stylesheet" href="css/overview.css"> -->
-</head>
 
-<body>
-    <header id="caja">
-        <nav class="navbar navbar-expand-lg static-top">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav m-auto pt-3">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
-                        </li>
-                        <a class="navbar-brand" href="#">
-                            LOGO
-                        </a>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="img/search (1).png" width="16" alt="" /></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="img/cart-regular-48.png" width="22" alt="" /></a>
-                        </li>
-                    </ul>
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style-scroll.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="css/slick.min.css">
+    <link rel="stylesheet" href="css/slick-theme.min.css">
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
+
+<body data-hijacking="off" data-animation="scaleDown">
+
+    <section class="cd-section visible">
+        <div>
+            <header id="caja">
+                <nav class="navbar navbar-expand-lg static-top">
+                    <div class="container">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarResponsive">
+                            <ul class="navbar-nav m-auto pt-3">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Product</a>
+                                </li>
+                                <a class="navbar-brand" href="#">
+                                    LOGO
+                                </a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><img src="img/search (1).png" width="16" alt="" /></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><img src="img/cart-regular-48.png" width="22"
+                                            alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div id="home" class="home">
+                <div class="titulo-banner">
+                    <div class="content">
+                        <h1>The future of 3D holographic technology awaits</h1>
+                    </div>
+                    <div class="content">
+                        <h1>3D holographic technologys</h1>
+                    </div>
+                    <div class="content">
+                        <h1>The future of 3D</h1>
+                    </div>
+                    <div class="content">
+                        <h1>technology awaits</h1>
+                    </div>
                 </div>
+
             </div>
-        </nav>
-    </header>
-    <main class="main-content">
-        <section id="home" class="home">
-            <div class="titulo-banner">
-                <div class="content">
-                    <h1>The future of 3D holographic technology awaits</h1>
-                </div>
-                <div class="content">
-                    <h1>3D holographic technologys</h1>
-                </div>
-                <div class="content">
-                    <h1>The future of 3D</h1>
-                </div>
-                <div class="content">
-                    <h1>technology awaits</h1>
-                </div>
-            </div>
-        </section>
-        <section class="product-home">
+    </section>
+
+    <section class="cd-section">
+        <div class="product-home">
             <div class="">
                 <h1 class="title-product">Popular product </h1>
             </div>
@@ -135,8 +146,10 @@
 
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
+    <section class="cd-section">
         <div class="portafolio">
             <div class="container">
                 <div class="titles">
@@ -268,109 +281,127 @@
                 </div>
             </div><!-- container -->
         </div>
+    </section>
 
-        <section class="blog">
-            <div class="titles">
-                <h1 style="        margin: 64px 0 50px;">Blog </h1>
+    <section class="cd-section ">
+        <div>
+            <div class="blog container">
+                <div class="titles">
+                    <h1>Blog </h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="wrapper-blog">
+                            <a href="#" class="card-blog">
+                                <div class="card__inner">
+                                    <img src="https://www.eltiempo.com/files/image_950_534/uploads/2018/12/26/5c237b51762db.jpeg"
+                                        class="card_img">
+                                    <div class="card__content">
+                                        <h2 class="card__subtitle">Categoria</h2>
+                                        <h1 class="card__title">
+                                            Portable holographic projector
+                                        </h1>
+                                        <div class="card__description">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor
+                                                incididunt
+                                                ut
+                                                labore et dolore magna aliqua...
+                                            </p>
+                                        </div>
+                                        <!-- <p><span class="card__cta">Find out more</span></p> -->
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="wrapper">
+                            <a href="#" class="card-blog">
+                                <div class="card__inner">
+                                    <img src="https://www.prensa.com/fotogalerias/holograma-interactivo-sobreviviente-Adina-Sella_LPRIMA20171027_0118_35.jpg"
+                                        class="card_img">
+                                    <div class="card__content">
+                                        <h2 class="card__subtitle">Categoria</h2>
+                                        <h1 class="card__title">
+                                            Portable holographic projector
+                                        </h1>
+                                        <div class="card__description">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor
+                                                incididunt
+                                                ut
+                                                labore et dolore magna aliqua...
+                                            </p>
+                                        </div>
+                                        <!-- <p><span class="card__cta">Find out more</span></p> -->
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="wrapper">
+                            <a href="#" class="card-blog">
+                                <div class="card__inner">
+                                    <img src="https://fotografias.antena3.com/clipping/cmsimages01/2018/11/26/62F3F9C1-97E8-4633-B7B1-B6C6F560BE6F/58.jpg"
+                                        class="card_img">
+                                    <div class="card__content">
+                                        <h2 class="card__subtitle">Categoria</h2>
+                                        <h1 class="card__title">
+                                            Portable holographic projector
+                                        </h1>
+                                        <div class="card__description">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor
+                                                incididunt
+                                                ut
+                                                labore et dolore magna aliqua...
+                                            </p>
+                                        </div>
+                                        <!-- <p><span class="card__cta">Find out more</span></p> -->
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="wrapper-blog">
-                        <a href="#" class="card-blog">
-                            <div class="card__inner">
-                                <img src="https://www.eltiempo.com/files/image_950_534/uploads/2018/12/26/5c237b51762db.jpeg"
-                                    class="card_img">
-                                <div class="card__content">
-                                    <h2 class="card__subtitle">Categoria</h2>
-                                    <h1 class="card__title">
-                                        Portable holographic projector
-                                    </h1>
-                                    <div class="card__description">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor
-                                            incididunt
-                                            ut
-                                            labore et dolore magna aliqua...
-                                        </p>
-                                    </div>
-                                    <!-- <p><span class="card__cta">Find out more</span></p> -->
 
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="wrapper">
-                        <a href="#" class="card-blog">
-                            <div class="card__inner">
-                                <img src="https://www.prensa.com/fotogalerias/holograma-interactivo-sobreviviente-Adina-Sella_LPRIMA20171027_0118_35.jpg"
-                                    class="card_img">
-                                <div class="card__content">
-                                    <h2 class="card__subtitle">Categoria</h2>
-                                    <h1 class="card__title">
-                                        Portable holographic projector
-                                    </h1>
-                                    <div class="card__description">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor
-                                            incididunt
-                                            ut
-                                            labore et dolore magna aliqua...
-                                        </p>
-                                    </div>
-                                    <!-- <p><span class="card__cta">Find out more</span></p> -->
+    </section>
 
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="wrapper">
-                        <a href="#" class="card-blog">
-                            <div class="card__inner">
-                                <img src="https://fotografias.antena3.com/clipping/cmsimages01/2018/11/26/62F3F9C1-97E8-4633-B7B1-B6C6F560BE6F/58.jpg"
-                                    class="card_img">
-                                <div class="card__content">
-                                    <h2 class="card__subtitle">Categoria</h2>
-                                    <h1 class="card__title">
-                                        Portable holographic projector
-                                    </h1>
-                                    <div class="card__description">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor
-                                            incididunt
-                                            ut
-                                            labore et dolore magna aliqua...
-                                        </p>
-                                    </div>
-                                    <!-- <p><span class="card__cta">Find out more</span></p> -->
+    <section class="cd-section ">
+        <footer>
+            <p>Copyright © Project 3D 2019 | Powered by Slice Group</p>
 
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
+        </footer>
+    </section>
 
-            <footer>
-                <p>Copyright © Project 3D 2019 | Powered by Slice Group</p>
-
-            </footer>
-        </section>
-
-    </main>
-
-
+    <nav>
+        <ul class="cd-vertical-nav">
+            <li><a href="#0" class="cd-prev inactive">Next</a></li>
+            <li><a href="#0" class="cd-next">Prev</a></li>
+        </ul>
+    </nav> <!-- .cd-vertical-nav -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script> -->
     <script src="js/index.js"></script>
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/"></script>
+    <!-- <script src="js/jquery-2.1.4.js"></script> -->
+    <script src="js/velocity.min.js"></script>
+    <script src="js/velocity.ui.min.js"></script>
+    <script src="js/mainn.js"></script> <!-- Resource jQuery -->
+
+
     <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
     <script src="js/slick.min.js"></script>
     <script defer src="js/main.js"></script>

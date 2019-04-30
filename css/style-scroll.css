@@ -1,3 +1,9 @@
+body {
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 body::before {
     /* never visible - this is used in jQuery to check the current MQ */
     content: 'mobile';
@@ -11,6 +17,10 @@ body::before {
     }
 }
 
+a {
+    color: #267481;
+    text-decoration: none;
+}
 
 /* -------------------------------- 
 
@@ -27,14 +37,14 @@ Main Components
     height: 100vh;
 }
 
-.cd-section h2 {
+/* .cd-section h2 {
     line-height: 100vh;
     text-align: center;
     font-size: 2.4rem;
-}
+} */
 
 .cd-section:first-of-type>div {
-    /* background-color: #2b334f; */
+    background-color: #2b334f;
 }
 
 .cd-section:first-of-type>div::before {

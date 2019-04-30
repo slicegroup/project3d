@@ -15,15 +15,15 @@ html {
 
 body {
     background: #000e14;
-    font-family: "RadikalW01-Regular";
+    font-family: "RadikalW01-Regular" !important;
 }
 
 canvas {
     position: absolute;
-    top: -40px;
+    top: -25px;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 header {
@@ -428,7 +428,7 @@ width: 100%;
     position: relative;
     transition: transform 0.1s ease;
     text-decoration: none;
-    width: 400px;
+    width: 350px;
 }
 
 .blog .card-blog::before {
@@ -502,11 +502,11 @@ width: 100%;
 }
 
 .blog .card__title {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 0.1em;
     font-weight: normal;
     margin: 0;
-    font-size: 21px;
+    font-size: 20px;
     margin: 0 0 12px;
 }
 
@@ -563,14 +563,15 @@ width: 100%;
 }
 
 
-.container {
+.portafolio .container {
     position: relative;
-    width: 960px;
+    width: 1000px;
     margin: 0 auto;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
+    height: 100vh;
 }
 
 #filters {

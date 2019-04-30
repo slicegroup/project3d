@@ -1,24 +1,7 @@
 // efecto 3d
 "use strict";
 
-$(document).ready(function () {
-    $(".main-content").scroll3D();
-});
 
-// navbar fixed
-// $(function () {
-//     $(window).scroll(function () {
-//         if (screen.width >= 600) {
-//             if ($(window).scrollTop() > 30) {
-//                 $("#caja").fadeOut();
-//                 $(".navbar").addClass("quit");
-//             } else {
-//                 $("#caja").fadeIn();
-//                 $(".navbar").removeClass("quit");
-//             }
-//         }
-//     });
-// });
 // card product
 (function ($) {
 
