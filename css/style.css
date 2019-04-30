@@ -9,10 +9,19 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 html {
     font-family: "RadikalW01-Regular";
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 body {
     background: #000e14;
     font-family: "RadikalW01-Regular";
@@ -20,7 +29,15 @@ body {
 
 canvas {
     position: absolute;
+<<<<<<< HEAD
     top: -40px;
+=======
+<<<<<<< HEAD
+    top: 0px;
+=======
+    top: -40px;
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
     left: 0;
     width: 100%;
     height: 100%;
@@ -137,10 +154,21 @@ header .nav-link {
 
 .s3d__navigation-link {
     display: none;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+}
+
+=======
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 
 }
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 /* end section1 */
 
 /* 2prouct */
@@ -263,7 +291,14 @@ header .nav-link {
     height: 350px;
     padding: 40px;
     transform-style: preserve-3d;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 }
 
 .card-product h1 {
@@ -344,6 +379,13 @@ header .nav-link {
 }
 
 /* blog */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 .blog {
     cursor: pointer;
 }
@@ -378,7 +420,14 @@ header .nav-link {
     margin: 0px 10px;
     top: 8px;
     margin: 0px 10px 15px;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 }
 
 .blog-info p {
@@ -415,6 +464,13 @@ header .nav-link {
 }
 
 /* portafolio o overviews */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 #info {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -436,7 +492,14 @@ header .nav-link {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 }
 
 #info a {
@@ -448,7 +511,14 @@ header .nav-link {
     margin: 5px 0 0 0;
 }
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 .container {
     position: relative;
     width: 960px;
@@ -487,7 +557,14 @@ header .nav-link {
     margin-bottom: 5%;
 }
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 #portfoliolist .portfolio {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -554,19 +631,40 @@ header .nav-link {
     top: -30px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/* #Tablet (Portrait) */
+
+=======
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 
 
 
 
 /* #Tablet (Portrait) */
+<<<<<<< HEAD
+=======
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     .container {
         width: 768px;
     }
 }
 
+<<<<<<< HEAD
 
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
+=======
+<<<<<<< HEAD
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+
+=======
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 @media only screen and (max-width: 767px) {
     .container {
         width: 95%;
@@ -580,11 +678,24 @@ header .nav-link {
     #ads {
         display: none;
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+}
+
+/* #Mobile (Landscape) - Note: Design for a width of 480px */
+
+=======
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 
 }
 
 
 /* #Mobile (Landscape) - Note: Design for a width of 480px */
+<<<<<<< HEAD
+=======
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .container {
         width: 70%;
@@ -593,12 +704,26 @@ header .nav-link {
     #ads {
         display: none;
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 }
 
 /* #Clearing */
 
 /* Self Clearing Goodness */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> e352da37ec42c816511fdaf3159a7ab6dbb56eee
+>>>>>>> 7496c9961e6ba256e9218e0de0b2f45330808f6d
 .container:after {
     content: "\0020";
     display: block;
