@@ -589,7 +589,7 @@ width: 100%;
 }
 
 #filters li span.active {
-    background: #ffffff;
+   background: #00fefe;
     color: #000e14;
 }
 
