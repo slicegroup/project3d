@@ -302,7 +302,7 @@ header .nav-link {
 }
 
 .slick-dots li.slick-active button:before {
-    color: #fff !important;
+        color: #00fefe !important;
 }
 
 .slick-dots li button:before {
