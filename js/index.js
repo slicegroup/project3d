@@ -51,7 +51,7 @@ let loop = () => {
         postctx.canvas.height = canvas.height = postctx.canvas.offsetHeight;
     }
 
-    c.fillStyle = `hsl(200deg, 100%, 2%)`;
+    c.fillStyle = `#000216`;
     c.fillRect(0, 0, canvas.width, canvas.height);
     c.save();
     c.translate(canvas.width / 2, canvas.height / 2);
