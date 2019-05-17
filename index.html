@@ -1,25 +1,34 @@
 <!doctype html>
 <html lang="en" class="no-js">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Project3D</title>
-    <link href="//db.onlinewebfonts.com/c/e7d643d9ae335eb641aeb0451aa390c2?family=RadikalW01-Regular" rel="stylesheet"
-        type="text/css" />
-
-    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-    <link rel="stylesheet" href="css/style-scroll.css"> <!-- Resource style -->
+    <!-- <link href="//db.onlinewebfonts.com/c/e7d643d9ae335eb641aeb0451aa390c2?family=RadikalW01-Regular" rel="stylesheet"
+        type="text/css" /> -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style-scroll.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <!-- Resource style -->
     <link rel="stylesheet" href="css/slick.min.css">
     <link rel="stylesheet" href="css/slick-theme.min.css">
-    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Modernizr -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="fonts/style.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slick-config.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="css/boxicons.min.css"> -->
 </head>
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
 
-<body data-hijacking="off" data-animation="scaleDown">
+<body data-hijacking="on" data-animation="opacity">
 
     <section class="cd-section visible">
         <div>
@@ -34,27 +43,33 @@
                         <div class="collapse navbar-collapse" id="navbarResponsive">
                             <ul class="navbar-nav m-auto pt-3">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">Home
+
+
+                                    <a class="nav-link eigth before after" href="#">Home
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link eigth before after" href="#">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Product</a>
+                                    <a class="nav-link eigth before after" href="#">Product</a>
                                 </li>
                                 <a class="navbar-brand" href="#">
-                                    LOGO
+                                    <img src="img/Logo.png" width="80" alt="" />
                                 </a>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Blog</a>
+                                    <a class="nav-link eigth before after" href="#">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link eigth before after" href="#">FAQs</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><img src="img/search (1).png" width="16" alt="" /></a>
+                                    <a class="nav-link eigth before after" href="#">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link eigth before after" href="#"><img src="img/search (1).png"
+                                            width="16" alt="" /></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#"><img src="img/cart-regular-48.png" width="22"
@@ -65,10 +80,17 @@
                     </div>
                 </nav>
             </header>
+
+
+
+
+
+
             <div id="home" class="home">
+                <canvas id="3D-background-three-canvas5"></canvas>
                 <div class="titulo-banner">
                     <div class="content">
-                        <h1>The future of 3D holographic technology awaits</h1>
+                        <h1>The future of 3D holographic technology </h1>
                     </div>
                     <div class="content">
                         <h1>3D holographic technologys</h1>
@@ -82,16 +104,21 @@
                 </div>
 
             </div>
-    </section>
 
+    </section>
+    <!-- popular product -->
     <section class="cd-section">
+        <!-- <div style="background:url(img/angle-bg.png)"></div> -->
+        <video autoplay loop="" width="100%" muted="" style="min-width: 476px; min-height: 476px" data-load-priority="0"
+            src="img/wl-waves-top-922.webm"></video>
+
         <div class="product-home">
             <div class="">
                 <h1 class="title-product">Popular product </h1>
             </div>
             <div class="center">
                 <div class="slider-destacado">
-                    <div class="wrapper-product">
+                    <div class="wrapper-product animated wow fadInDown" data-wow-duration="6s">
                         <div class="card-product" data-tilt>
                             <h1 class="titl">Acrylic 3D night light illusion atmosphere
                             </h1>
@@ -146,9 +173,100 @@
                 </div>
             </div>
         </div>
+    </section> <!-- end popular product-->
+    <!-- categories -->
+    <section class="cd-section category-content">
+        <video autoplay loop="" width="100%" muted=""
+            style="min-width: 476px; min-height: 476px;     margin: 100px 0 0;" data-load-priority="0"
+            src="img/wl-waves-bottom-911.webm"></video>
+        <div class="div">
+            <div class="">
+                <h1 class="title-product">Category </h1>
+            </div>
+            <div class="center-j">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="body-category">
+                            <div class="category">
+                                <figure class="front"
+                                    style="background:url(https://images-na.ssl-images-amazon.com/images/I/71Xby5tLSoL._SL1000_.jpg)">
+                                    <span class="gradient"></span>
+                                    <div class="">
+                                        <div class="title">Category</div>
+                                    </div>
+                                </figure>
+                                <figure class="back">
+                                    <div class="">
+                                        <div class="title">Popular products</div>
+                                        <a href="#" class="cta">
+                                            <span>See More</span>
+                                                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="body-category">
+                            <div class="category">
+                                <figure class="front"
+                                    style="background:url(https://image.made-in-china.com/43f34j10JGLRwdNMQHbv/LED-3D-Holographic-Projector-H.jpg)">
+                                    <span class="gradient"></span>
+                                    <div class="">
+                                        <div class="title">Categories</div>
+                                    </div>
+                                </figure>
+                                <figure class="back">
+                                    <div class="">
+                                        <div class="title">Powerful Performance</div>
+                                        <a href="#" class="cta">
+                                            <span>See More</span>
+                                                      <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="body-category">
+                            <div class="category">
+                                <figure class="front"
+                                    style="background:url(https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2017/11/13/goods_img_big-v1/20171113185942_83274.jpg)">
+                                    <span class="gradient"></span>
+                                    <div class="">
+                                        <div class="title">Category</div>
+                                    </div>
+                                </figure>
+                                <figure class="back">
+                                    <div class="">
+                                        <div class="title">Scalable on Devices</div>
+                                        <a href="#" class="cta">
+                                            <span>See More</span>
+                                                      <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="category-btn">
+                    <a href="#" class="cta">
+                    <span>See More</span>
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                   
+                </a>
+            </div>
+            </div>
+
+        </div>
+
     </section>
 
-     <section class="cd-section">
+    <!-- portfolio -->
+    <section class="cd-section">
         <div class="portafolio">
             <div class="container">
                 <div class="titles">
@@ -167,6 +285,7 @@
 
                     <div class="portfolio logo" data-cat="logo">
                         <div class="portfolio-wrapper">
+                            <img src="img/prueba.jpg" alt="" srcset="">
                             <img src="https://ae01.alicdn.com/kf/HLB1dvL2XynrK1Rjy1Xcq6yeDVXag/3D-Holographic-Projector-Display-LED-Fan-Hologram-Advertising-Displayer-Support-MP4-AVI-RMVB-MKV-GIF-JPG.jpg_q50.jpg"
                                 alt="" />
                             <div class="label">
@@ -238,8 +357,7 @@
 
                     <div class="portfolio card" data-cat="icon">
                         <div class="portfolio-wrapper">
-                            <img src="https://img.newfrog.com/products/1/9/7/197775.01/197775.01-2.jpg"
-                                alt="" />
+                            <img src="https://img.newfrog.com/products/1/9/7/197775.01/197775.01-2.jpg" alt="" />
                             <div class="label">
                                 <div class="label-text">
                                     <a class="text-title">BMF</a>
@@ -266,8 +384,7 @@
 
                     <div class="portfolio logo" data-cat="logo">
                         <div class="portfolio-wrapper">
-                            <img src="https://images-na.ssl-images-amazon.com/images/I/41GWdeVIiTL.jpg"
-                                alt="" />
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/41GWdeVIiTL.jpg" alt="" />
                             <div class="label">
                                 <div class="label-text">
                                     <a class="text-title">KittyPic</a>
@@ -278,22 +395,26 @@
                         </div>
                     </div>
                 </div>
-            </div><!-- container -->
+            </div>
+            <!-- container -->
         </div>
-    </section>
+    </section><!-- end portfolio -->
+
 
     <section class="cd-section ">
+        <!-- <div style="background:url(img/bg.jpg)"></div> -->
         <div>
+
             <div class="blog container">
                 <div class="titles">
                     <h1>Blog </h1>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="wrapper-blog">
+                        <div class="wrapper">
                             <a href="#" class="card-blog">
                                 <div class="card__inner">
-                                    <img src="https://www.eltiempo.com/files/image_950_534/uploads/2018/12/26/5c237b51762db.jpeg"
+                                    <img src="https://img.newatlas.com/telehuman-holo-1.jpg?auto=format%2Ccompress&ch=Width%2CDPR&fit=crop&h=347&q=60&rect=0%2C0%2C1799%2C1012&w=616&s=db7efc68812e83dc5fe17b4582450dd9"
                                         class="card_img">
                                     <div class="card__content">
                                         <h2 class="card__subtitle">Categoria</h2>
@@ -303,10 +424,7 @@
                                         <div class="card__description">
                                             <p>
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor
-                                                incididunt
-                                                ut
-                                                labore et dolore magna aliqua...
+                                                tempor incididunt ut labore et dolore magna aliqua...
                                             </p>
                                         </div>
                                         <!-- <p><span class="card__cta">Find out more</span></p> -->
@@ -330,10 +448,7 @@
                                         <div class="card__description">
                                             <p>
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor
-                                                incididunt
-                                                ut
-                                                labore et dolore magna aliqua...
+                                                tempor incididunt ut labore et dolore magna aliqua...
                                             </p>
                                         </div>
                                         <!-- <p><span class="card__cta">Find out more</span></p> -->
@@ -357,10 +472,7 @@
                                         <div class="card__description">
                                             <p>
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor
-                                                incididunt
-                                                ut
-                                                labore et dolore magna aliqua...
+                                                tempor incididunt ut labore et dolore magna aliqua...
                                             </p>
                                         </div>
                                         <!-- <p><span class="card__cta">Find out more</span></p> -->
@@ -371,33 +483,45 @@
                         </div>
                     </div>
                 </div>
+               
             </div>
-
+     <div class="blog-btn">
+                    <a href="#" class="cta">
+                    <span>See More</span>
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                   
+                </a>
+            </div>
     </section>
 
     <section class="cd-section ">
-        
+         <!-- <video autoplay loop="" width="100%" muted="" style="min-width: 476px; min-height: 476px" data-load-priority="0"
+            src="img/vv.webm"></video> -->
+    <div>
+         
+            <!-- <div class="bg-footer" style="background:url(img/bg.png)"></div> -->
         <footer class="r">
-        <div class="f-title">
-            <h1>Contact Us</h1>
-        </div>
+           
+            <div class="f-title">
+                <h1>Contact Us</h1>
+            </div>
             <div class="container footer">
-               
-           <div style="    margin: 14% 0;">
+
+                <div style="    margin: 14% 0;">
                     <div class="row">
                         <div class="col-md-4">
-                            <h1>LOGO</h1>
+                          <img src="img/logo.png" width="40%" alt="">
                             <ul>
                                 <li><a href="">Terms and Conditions </a></li>
                                 <li><a href="">Privacy Policy</a></li>
                                 <li><a href=""> Shipping Policy</a></li>
                                 <li><a href=""> Help & Info</a></li>
-                    
+
                             </ul>
                         </div>
                         <div class="col-md-4">
                             <div class="container">
-                    
+
                                 <form>
                                     <div class="group">
                                         <input type="text" required>
@@ -422,12 +546,15 @@
                         </div>
                         <div class="col-md-4">
                             <h1 style="    font-size: 25px;">Follow us on Instagram</h1>
+                             <div class="elfsight-app-11f11be6-22d6-4f36-9c00-215724662142"></div>
                         </div>
                     </div>
-           </div>
-            <p>Copyright © Project 3D 2019 | Powered by Slice Group</p>
+                      <p>Copyright © Project 3D 2019 | Powered by Slice Group</p>
+                </div>
+              
 
         </footer>
+    </div>
     </section>
 
     <nav>
@@ -435,7 +562,8 @@
             <li><a href="#0" class="cd-prev inactive">Next</a></li>
             <li><a href="#0" class="cd-next">Prev</a></li>
         </ul>
-    </nav> <!-- .cd-vertical-nav -->
+    </nav>
+    <!-- .cd-vertical-nav -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script> -->
     <script src="js/index.js"></script>
@@ -446,7 +574,9 @@
     <!-- <script src="js/jquery-2.1.4.js"></script> -->
     <script src="js/velocity.min.js"></script>
     <script src="js/velocity.ui.min.js"></script>
-    <script src="js/mainn.js"></script> <!-- Resource jQuery -->
+     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <script src="js/mainn.js"></script>
+    <!-- Resource jQuery -->
 
 
     <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
@@ -454,7 +584,7 @@
     <script defer src="js/main.js"></script>
 
     <script src="js/custom.js"></script>
-
+    <script src="js/prueb.js"></script>
     <!-- <script src="js/atvImg.js">
     </script> -->
     <script src="js/jquery.mousewheel.min.js"></script>
@@ -472,9 +602,26 @@
             }
         });
 
-        // NB: See comments in stylesheet regarding fixes for chrome and safari "flickering"
+        new WOW().init();
+        
+        		setTimeout(function () {
+          $('#eapps-instagram-feed').find('a').last().css('display', 'none')
+        }, 1500)
 
+        // NB: See comments in stylesheet regarding fixes for chrome and safari "flickering"
     </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/103/three.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+
+
+
+
+
 </body>
 
 </html>

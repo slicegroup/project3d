@@ -26,10 +26,8 @@ $(".titulo-banner").slick({
     centerPadding: "60px",
     slidesToShow: 1,
     speed: 1000,
-    autoplay: true,
-
+    autoplay: false,
     arrows: true,
-
     //centerMode: true,
     dots: false,
     fade: true,
@@ -66,10 +64,11 @@ $(".slider-destacado").slick({
     centerPadding: "90px",
     slidesToShow: 3,
     speed: 1000,
-    slidesToScroll: 3,
-    autoplay: true,
+    slidesToScroll: 1,
+    autoplay: false,
     speed: 1000,
     dots: true,
+    arrows: true,
     infinite: true,
     responsive: [{
             breakpoint: 768,
@@ -120,6 +119,38 @@ $(".blog-card").slick({
     ]
 });
 
+
+// portfolio
+$(".portfolio").slick({
+    centerMode: true,
+    centerPadding: "90px",
+    slidesToShow: 3,
+    speed: 1000,
+    slidesToScroll: 3,
+    autoplay: false,
+    speed: 1000,
+    dots: true,
+    infinite: false,
+    responsive: [{
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                // centerPadding: "40px",
+                slidesToShow: 3
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                // centerPadding: "40px",
+                slidesToShow: 1
+            }
+        }
+    ]
+});
 
 // overview o portafolio
 $(function () {
