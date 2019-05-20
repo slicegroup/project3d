@@ -77,7 +77,7 @@ Main Components
 }
 
 .cd-section:nth-of-type(4)>div {
-    background-color: #000216;
+    /* background-color: #000216; */
 }
 
 .cd-section:nth-of-type(5)>div {

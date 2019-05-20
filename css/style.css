@@ -16,7 +16,7 @@
 
 
 body {
-    background: #000216;
+    background: #0A0018;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -237,6 +237,30 @@ h1 {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 60%);
 }
 
+.card-product .cta {
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    transform: translatez(50px);
+    /* left: -50px; */
+    /* width: 85%; */
+    top: 40%;
+    left: 100px;
+    text-shadow: 5px 3px 10px #000;
+    font-size: 20px;
+    color: #fff;
+}
+
+.card-product:hover .cta {
+    opacity: 1;
+}
+
+#portfoliolist .card-product {
+
+    width: 350px;
+    height: 250px;
+}
+
 .card-product-product {
     /* display: flex;
   justify-content: space-around;
@@ -331,21 +355,13 @@ h1 {
     margin: 40px;
 }
 
-.title-product::before {
+/* .title-product::after {
     content: '';
-    display: block;
+    width: 100px;
+    height: 100px;
+    background: red;
     position: absolute;
-    height: 100%;
-    width: 6px;
-    background: #ff1212;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    -webkit-transform: translateX(-150px);
-    transform: translateX(-150px);
-    -webkit-animation: title-border-slide-in 0.35s ease-out forwards;
-    animation: title-border-slide-in 0.35s ease-out forwards;
-}
+} */
 
 /* blog */
 
@@ -588,6 +604,8 @@ h1 {
     padding: 0;
     list-style: none;
     border: 1px solid #ffffff40;
+
+    display: inline-grid;
 }
 
 #filters li {
@@ -1084,7 +1102,7 @@ a.after:hover:after {
     bottom: 0;
     left: 0;
     /* background: linear-gradient(49deg, #00024fc7 0%, rgba(0, 254, 254, 0.59) 100%); */
-    background: linear-gradient(10deg, #00fefe3d 0%, rgba(116, 0, 186, 0.23) 100%)
+    background: linear-gradient(10deg, #00fefe3d 0%, rgba(116, 0, 186, 0.23) 100%);
 }
 
 .category .back {
@@ -1242,4 +1260,15 @@ a.after:hover:after {
 
 .cta:active {
     transform: scale(0.96);
+}
+
+
+
+
+
+/* portfolio */
+
+#portfoliolist {
+    background: linear-gradient(90deg, rgb(1, 150, 232) 15%, rgba(118, 0, 255, 0.31) 77%);
+    height: 450px;
 }
