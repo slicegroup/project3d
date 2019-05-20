@@ -84,6 +84,7 @@ Main Components
     /* background-color: #000216; */
     /* height: 100vh; */
     /* background: url("../img/Lineas.svg"); */
+    background: url("../img/bg.png");
 }
 
 .cd-section:nth-of-type(6)>div {

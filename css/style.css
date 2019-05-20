@@ -806,6 +806,12 @@ h1 {
     font-size: 40px;
 }
 
+.footer li a:hover {
+    color: #00fefe;
+    line-height: 2;
+}
+
+
 /* form */
 
 .footer h1 {

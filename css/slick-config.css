@@ -192,7 +192,7 @@ html {
 }
 
 .blue {
-    background: #3498db;
+    /* background: #3498db; */
 }
 
 .blue .portfolio-img-small {
@@ -258,7 +258,13 @@ html {
     box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
         0px 8px 10px 1px rgba(0, 0, 0, 0.14),
         0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
 
+
+}
+
+.blue .slick-slider {
+    width: 800px !important;
 }
 
 .portflio .algo {
@@ -276,7 +282,7 @@ html {
     width: 150px !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+    box-shadow: 0px 16px 30px 14px rgba(0, 0, 0, 0.2),
         0px 8px 10px 1px rgba(0, 0, 0, 0.14),
         0px 3px 14px 2px rgba(0, 0, 0, 0.12);
     border-radius: 1px;
@@ -318,4 +324,9 @@ html {
 .portflio .slick-next:before,
 .slick-prev:before {
     color: #ffffff;
+}
+
+.slider-destacado .slick-dots {
+    position: absolute;
+    bottom: -25%;
 }
