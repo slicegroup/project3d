@@ -1273,8 +1273,100 @@ a.after:hover:after {
 
 
 /* portfolio */
+#grid-filter {
+    margin: 0;
+    padding: 10px;
+    padding-left: 0;
+    color: #fff;
 
-#portfoliolist {
+}
+
+#grid-filter .cta::before {
+    z-index: -1;
+
+}
+
+#grid-filter li {
+
+    font-size: 16px;
+    margin: 15px;
+}
+
+.cta-active {
+    font-weight: 600;
+
+}
+
+.cta-active span {
+    margin: 0 19px;
+}
+
+.cta-active::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    display: block;
+    /* border-radius: 28px; */
+    /* background: linear-gradient(49deg, rgba(0, 2, 79, 1) 0%, rgba(0, 254, 254, 1) 100%); */
     background: linear-gradient(90deg, rgb(1, 150, 232) 15%, rgba(118, 0, 255, 0.31) 77%);
-    height: 450px;
+    width: 210px;
+    height: 40px;
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+
+.items {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.grid-item {
+    width: 190px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-size: 100% !important;
+    background-position: center !important;
+}
+
+.a {
+    background-color: #1abc9c;
+}
+
+.b {
+    background-color: #2ecc71;
+}
+
+.c {
+    background-color: #3498db;
+}
+
+.d {
+    background-color: #9b59b6;
+}
+
+.e {
+    background-color: #34495e;
+}
+
+.f {
+    background-color: #f1c40f;
+}
+
+.g {
+    background-color: #e67e22;
+}
+
+.h {
+    background-color: #e74c3c;
+}
+
+.h_1 {
+    height: 100px;
+}
+
+.h_2 {
+    height: 150px;
 }
