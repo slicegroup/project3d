@@ -78,6 +78,8 @@ Main Components
 
 .cd-section:nth-of-type(4)>div {
     /* background-color: #000216; */
+    /* background: url("../img/c72a443c8f5565e4cdb88800e277b945.jpg"); */
+    height: 100vh;
 }
 
 .cd-section:nth-of-type(5)>div {
@@ -123,7 +125,7 @@ Main Components
 [data-animation="parallax"] .cd-section:nth-of-type(4)>div,
 [data-animation="fixed"] .cd-section:nth-of-type(4)>div,
 [data-animation="opacity"] .cd-section:nth-of-type(4)>div {
-    background-image: url("../img/img-4.jpg");
+    /* background-image: url("../img/img-4.jpg"); */
 }
 
 [data-animation="parallax"] .cd-section:nth-of-type(5)>div,

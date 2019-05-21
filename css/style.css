@@ -1329,6 +1329,8 @@ a.after:hover:after {
     cursor: pointer;
     background-size: 100% !important;
     background-position: center !important;
+
+    transform-style: preserve-3d;
 }
 
 .a {
