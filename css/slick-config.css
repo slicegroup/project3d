@@ -67,7 +67,9 @@
 
 .slick-next:hover,
 .slick-prev:hover {
-    background: linear-gradient(10deg, #00fefe8f 0%, rgba(116, 0, 186, 0.52) 100%);
+    background: -webkit-linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+    background: linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+
 }
 
 transition: opacity 0.3s ease;
@@ -235,7 +237,9 @@ html {
 .portflio .slick-next {
     right: 25px;
     top: 0;
-    background: linear-gradient(90deg, rgb(1, 150, 232) 0%, rgb(118, 0, 255) 100%);
+    background: -webkit-linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+    background: linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+
     box-shadow: -1px 17px 15px -10px rgba(0, 0, 0, 0.13),
         0px 24px 38px 3px rgba(0, 0, 0, 0.09),
         0px 9px 46px 8px rgba(0, 0, 0, 0.13);
@@ -244,7 +248,9 @@ html {
 .portflio .slick-prev {
     left: 781px;
     top: 0;
-    background: linear-gradient(90deg, rgb(1, 150, 232) 0%, rgb(118, 0, 255) 100%);
+    background: -webkit-linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+    background: linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+
     box-shadow: -1px 17px 15px -10px rgba(0, 0, 0, 0.13),
         0px 24px 38px 3px rgba(0, 0, 0, 0.09),
         0px 9px 46px 8px rgba(0, 0, 0, 0.13);

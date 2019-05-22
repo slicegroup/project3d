@@ -499,9 +499,9 @@ h1 {
 .blog .card__inner::before {
     content: '';
     display: block;
-    background: -webkit-linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
+    background: -webkit-linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+    background: linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     opacity: 0;
     position: absolute;
@@ -1107,8 +1107,9 @@ a.after:hover:after {
     right: 0;
     bottom: 0;
     left: 0;
-    /* background: linear-gradient(49deg, #00024fc7 0%, rgba(0, 254, 254, 0.59) 100%); */
-    background: linear-gradient(10deg, #00fefe3d 0%, rgba(116, 0, 186, 0.23) 100%);
+    background: -webkit-linear-gradient(96deg, rgba(5, 254, 255, 0.43), rgba(4, 16, 184, 0.37));
+    background: linear-gradient(96deg, rgba(5, 254, 255, 0.43), rgba(4, 16, 184, 0.37));
+
 }
 
 .category .back {
@@ -1216,9 +1217,9 @@ a.after:hover:after {
     top: 6px;
     left: 0;
     display: block;
-    /* border-radius: 28px; */
-    /* background: linear-gradient(49deg, rgba(0, 2, 79, 1) 0%, rgba(0, 254, 254, 1) 100%); */
-    background: linear-gradient(90deg, rgb(1, 150, 232) 15%, rgba(118, 0, 255, 0.31) 77%);
+    background: -webkit-linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+    background: linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+
     width: 40px;
     height: 40px;
     transition: all 0.3s ease;
@@ -1256,8 +1257,9 @@ a.after:hover:after {
 .cta:hover:before {
     width: 100%;
     color: #fff;
-    /* background: linear-gradient(49deg, rgba(0, 2, 79, 1) 0%, rgba(0, 254, 254, 1) 100%); */
-    background: linear-gradient(90deg, rgb(1, 150, 232) 15%, rgba(118, 0, 255, 0.31) 77%);
+    background: -webkit-linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+    background: linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+
 }
 
 .cta:hover i {
@@ -1308,8 +1310,9 @@ a.after:hover:after {
     left: 0;
     display: block;
     /* border-radius: 28px; */
-    /* background: linear-gradient(49deg, rgba(0, 2, 79, 1) 0%, rgba(0, 254, 254, 1) 100%); */
-    background: linear-gradient(90deg, rgb(1, 150, 232) 15%, rgba(118, 0, 255, 0.31) 77%);
+    background: -webkit-linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+    background: linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+
     width: 210px;
     height: 40px;
     z-index: -1;

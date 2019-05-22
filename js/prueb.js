@@ -78,7 +78,7 @@
 
 			geometry = new THREE.PlaneGeometry(4000, 2000, 128, 64);
 			material = new THREE.MeshLambertMaterial({
-				color: 0xe6123e,
+				color: 0x05FEFF,
 				opacity: 0,
 				blending: THREE.NoBlending,
 				side: THREE.FrontSide,
