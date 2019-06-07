@@ -69,18 +69,13 @@
 
 
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.3.1.min.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.3.1.slim.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/swiper-galery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/slick.min.js"></script>
   <script defer src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/prueb.js"></script>
-  <script defer src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.pageScroll3d.min.js"></script>
   <script src="https://unpkg.com/tilt.js@1.1.19/dest/tilt.jquery.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/mixitup.min.js"></script>
-  <script src="https://www.queness.com/resources/html/simple-portfolio-page/js/jquery.mixitup.min.js"></script>
   <script>
     var containerEl = document.querySelector('.container');
 

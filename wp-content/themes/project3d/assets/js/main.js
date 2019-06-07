@@ -105,7 +105,32 @@ $(".slider-destacado").slick({
 });
 
 
+ // Header scroll class
+ $(window).scroll(function() {
+  if ($(this).scrollTop() > 10) {
+    $('#header').addClass('header-scrolled');
+    // $('#school')addClass('top-fix') ;
+  }
+  
+  else {
+    $('#header').removeClass('header-scrolled');
+    $('#header').removeClass('container');
+  }
+});
 
+
+// scroll
+$(".bajar").click(function (event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+    var hash = this.hash;
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top - 0
+    }, 1200, function () {
+      window.location.hash = hash
+    })
+  }
+})
 
 
 

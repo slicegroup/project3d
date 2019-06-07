@@ -38,7 +38,7 @@
     </div> -->
 
     <!-- Header -->
-    <header id="caja">
+    <header id="header">
         <nav class="navbar navbar-expand-lg static-top">
           <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
