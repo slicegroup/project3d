@@ -1,5 +1,4 @@
-  <!-- 4 -->
-  <div class="section" id="section3">
+<div class="section" id="section3">
       <div class="portafolio">
         <div class="titles">
           <h1>We are proud to assist our clients</h1>
@@ -191,6 +190,5 @@
       </div>
       <video autoplay loop="" width="100%" muted=""
         style="min-width: 476px;   margin: 100px 0 0; min-height: 476px;;position: absolute; top: 0;width: 100%;left: 0;z-index: -1;"
-        data-load-priority="0" src="img/wl-waves-top-922.webm"></video>
+        data-load-priority="0" src="<?php echo get_template_directory_uri();?>/assets/img/wl-waves-top-922.webm"></video>
     </div>
-    <!-- 4 -->

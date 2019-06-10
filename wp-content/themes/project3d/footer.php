@@ -60,7 +60,7 @@
       </footer>
       <video autoplay loop="" width="100%" muted=""
         style="min-width: 476px;   margin: 100px 0 0; min-height: 476px;;position: absolute; top: 0;width: 100%;left: 0;z-index: 1;    top: 200px;"
-        data-load-priority="0" src="<?php echo get_template_directory_uri();?>/assets/img/vv.webm"></video>
+        data-load-priority="0" src="eimg/vv.webm"></video>
     </div>
 
   </div>
@@ -99,6 +99,11 @@
   <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/fullpage.min.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/examples.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/snap.svg-min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/classie.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/responsive.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/hamburger.js"></script>
+
 
   <script type="text/javascript">
     var myFullpage = new fullpage("#fullpage", {

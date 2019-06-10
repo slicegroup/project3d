@@ -1,8 +1,7 @@
-  <!-- 3 -->
-  <div class="section" id="section2">
+<div class="section" id="section2">
       <div class="div">
         <div class="">
-                   <h1 class="title-product">What are you looking for?</h1>
+          <h1 class="title-product">What are you looking for?</h1>
         </div>
         <div class="center-j">
           <div class="row">
@@ -83,6 +82,5 @@
       </div>
       <video autoplay loop="" width="100%" muted=""
         style="min-width: 476px; min-height: 476px;position: absolute; top: 0;width: 100%;left: 0;z-index: -1;"
-        data-load-priority="0" src="img/wl-waves-bottom-911.webm"></video>
+        data-load-priority="0" src="<?php echo get_template_directory_uri();?>/assets/img/wl-waves-bottom-911.webm"></video>
     </div>
-   
