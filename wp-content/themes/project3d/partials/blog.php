@@ -4,7 +4,7 @@
           <h1>Blog </h1>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <div class="wrapper">
               <a href="#" class="card-blog">
                 <div class="card__inner">
@@ -27,7 +27,7 @@
               </a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6 col-lg-4">
             <div class="wrapper">
               <a href="#" class="card-blog">
                 <div class="card__inner">

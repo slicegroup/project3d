@@ -17,7 +17,7 @@
    
           <div class="button-burger" id="burguer">
             <div class="hamburger hamburger--squeeze" id="squeeze">
-              <div class="hamburger-box bx bx-menu-alt-right">
+              <div class="hamburger-box ">
                 <div class="hamburger-inner"></div>
               </div>
             </div>

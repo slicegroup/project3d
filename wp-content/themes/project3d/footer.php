@@ -102,6 +102,8 @@
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/snap.svg-min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/classie.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/responsive.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/hamburger.js"></script>
+
 
   <script type="text/javascript">
     var myFullpage = new fullpage("#fullpage", {
