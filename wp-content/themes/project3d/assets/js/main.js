@@ -61,7 +61,7 @@ $(".titulo-banner").slick({
     {
       breakpoint: 480,
       settings: {
-        arrows: false,
+
         centerMode: true,
         centerPadding: "40px",
         slidesToShow: 1
@@ -78,7 +78,7 @@ $(".slider-destacado").slick({
   slidesToShow: 3,
   speed: 1000,
   slidesToScroll: 1,
-  autoplay: true,
+  autoplay: false,
   speed: 1000,
   dots: true,
   arrows: true,
@@ -89,16 +89,13 @@ $(".slider-destacado").slick({
         arrows: false,
         centerMode: true,
         // centerPadding: "40px",
-        slidesToShow: 3
+        slidesToShow: 1
       }
     },
     {
       breakpoint: 480,
       settings: {
-        arrows: false,
-        centerMode: true,
-        // centerPadding: "40px",
-        slidesToShow: 1
+      slidesToShow: 1
       }
     }
   ]
@@ -119,16 +116,6 @@ $(".down").click(function (event) {
     })
   }
 })
-// menu responsive
-var navTrigger = document.getElementsByClassName('nav-trigger')[0],
-    body = document.getElementsByTagName('body')[0];
-
-navTrigger.addEventListener('click', toggleNavigation);
-
-function toggleNavigation(event) {
-  event.preventDefault();
-  body.classList.toggle('nav-open');
-}
 
 // asdfghjklñ
 var bg = document.querySelector('.item-bg');
@@ -169,7 +156,7 @@ if ($(window).width() > 800) {
 
   });
 }
-
+// if($(window).width() < 1024){ $('#fullpage').removeAttr('id'); }
 
 var swiper = new Swiper('.news-slider', {
   effect: 'coverflow',

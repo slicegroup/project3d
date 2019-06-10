@@ -3,7 +3,7 @@
         <div class="">
           <h1 class="title-product">What are you looking for?</h1>
         </div>
-        <div class="center-j">
+        <div class="center-j container">
           <div class="row">
             <div class="col-md-4">
               <div class="body-category">
@@ -82,5 +82,5 @@
       </div>
       <video autoplay loop="" width="100%" muted=""
         style="min-width: 476px; min-height: 476px;position: absolute; top: 0;width: 100%;left: 0;z-index: -1;"
-        data-load-priority="0" src="<?php echo get_template_directory_uri();?>/assets/img/wl-waves-bottom-911.webm"></video>
+        data-load-priority="0" data-src="<?php echo get_template_directory_uri();?>/assets/img/wl-waves-bottom-911.webm"></video>
     </div>

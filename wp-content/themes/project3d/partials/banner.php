@@ -11,13 +11,13 @@
       </button> -->
       <div class="responsive-nav ">
       <a class="navbar-brand-r down" href="#">
-              <img src="<?php echo get_template_directory_uri();?>/assets/img/logo-R.svg"  alt="" />
+              <img data-src="<?php echo get_template_directory_uri();?>/assets/img/logo-R.svg"  alt="" />
             </a>
         <div id="main">
    
           <div class="button-burger" id="burguer">
             <div class="hamburger hamburger--squeeze" id="squeeze">
-              <div class="hamburger-box">
+              <div class="hamburger-box bx bx-menu-alt-right">
                 <div class="hamburger-inner"></div>
               </div>
             </div>

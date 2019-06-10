@@ -9,7 +9,7 @@
               <a href="#" class="card-blog">
                 <div class="card__inner">
                   <img
-                    src="https://img.newatlas.com/telehuman-holo-1.jpg?auto=format%2Ccompress&ch=Width%2CDPR&fit=crop&h=347&q=60&rect=0%2C0%2C1799%2C1012&w=616&s=db7efc68812e83dc5fe17b4582450dd9"
+                    data-src="https://img.newatlas.com/telehuman-holo-1.jpg?auto=format%2Ccompress&ch=Width%2CDPR&fit=crop&h=347&q=60&rect=0%2C0%2C1799%2C1012&w=616&s=db7efc68812e83dc5fe17b4582450dd9"
                     class="card_img">
                   <div class="card__content">
                     <h2 class="card__subtitle">Categoria</h2>
@@ -32,7 +32,7 @@
               <a href="#" class="card-blog">
                 <div class="card__inner">
                   <img
-                    src="https://www.prensa.com/fotogalerias/holograma-interactivo-sobreviviente-Adina-Sella_LPRIMA20171027_0118_35.jpg"
+                    data-src="https://www.prensa.com/fotogalerias/holograma-interactivo-sobreviviente-Adina-Sella_LPRIMA20171027_0118_35.jpg"
                     class="card_img">
                   <div class="card__content">
                     <h2 class="card__subtitle">Categoria</h2>
@@ -57,7 +57,7 @@
               <a href="#" class="card-blog">
                 <div class="card__inner">
                   <img
-                    src="https://fotografias.antena3.com/clipping/cmsimages01/2018/11/26/62F3F9C1-97E8-4633-B7B1-B6C6F560BE6F/58.jpg"
+                    data-src="https://fotografias.antena3.com/clipping/cmsimages01/2018/11/26/62F3F9C1-97E8-4633-B7B1-B6C6F560BE6F/58.jpg"
                     class="card_img">
                   <div class="card__content">
                     <h2 class="card__subtitle">Categoria</h2>

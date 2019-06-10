@@ -102,8 +102,6 @@
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/snap.svg-min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/classie.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/responsive.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/hamburger.js"></script>
-
 
   <script type="text/javascript">
     var myFullpage = new fullpage("#fullpage", {
@@ -111,7 +109,17 @@
       // sectionsColor: ["#C63D0F", "#1BBC9B", "#7E8F7C"],
       navigation: true,
       navigationPosition: "right",
-      navigationTooltips: ["", "Product", "Categories", "Projects", "Blog", ""]
+      navigationTooltips: ["", "Product", "Categories", "Projects", "Blog", ""],
+	
+
+  //     responsiveWidth: 0,
+	// responsiveHeight: 0,
+	// responsiveSlides: false,
+
+      // afterResponsive: function(isResponsive){
+      //   responsiveHeight: 800,
+
+      // },
     });
   </script>
 

@@ -35,8 +35,100 @@
     .navbar-brand-r img{
       width: 120px;
     }
-
+    .home h1 {
+    font-size: 2rem;
+    }
+    #fp-nav {
+    display: none;
+    }
+    .card-product h1 {
+    left: -20px;
+    }
+    .center {
+    margin: 0;
 }
+  .product-home{
+        height: 100vh;
+  }
+  .center-j {
+    height: auto;
+      
+  }
+  .body-category {
+    margin-bottom: 20px;
+        height: 140px;
+}
+.title-product {
+    font-size: 26px;
+    margin: 25px;
+}
+.category .front .title {
+    font-size: 20px;
+}
+.category .back .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.cta {
+    padding: 9px 20px;
+}
+.titles h1 {
+    font-size: 25px;
+    margin: 10px;
+}
+.item-bg {
+
+    border: .5px solid transparent;
+}
+.news__item {
+    padding: 0 35px!important;
+}
+.news__title {
+    font-size: 18px!important;
+   
+}
+.news__txt {
+    font-size: 14px!important;
+}
+.news-slider__pagination {
+ 
+    margin-top: 60px!important;
+}
+.blog .card-blog {
+    width: 100%;
+}
+footer {
+    margin: 0;
+}
+.slick-next {
+    right: 40px;
+}
+.slick-prev {
+    left: 40px;
+}
+.slick-next, .slick-prev {
+    background: -webkit-linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+    background: linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+    top: 104%;
+    z-index:9;
+}
+.home .slick-next,.home .slick-prev{
+  display:none!important;
+}
+.product-home .center {
+    margin: 80px 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
 
 .line{
    height: 1px;
@@ -118,7 +210,7 @@
  * Hamburgerss
  */
 .hamburger {
-  padding: 15px 15px;
+  padding: 0;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
@@ -142,7 +234,9 @@
   width: 30px;
   height: 25px;
   display: inline-block;
-  position: relative; }
+  position: relative;
+  font-size: 2.5rem;
+       }
 
 .hamburger-inner {
   display: block;
@@ -151,7 +245,7 @@
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 100%;
     height: 1px;
-    background-color: rgb(232, 232, 232);
+    background-color: transparent;
     border-radius: 4px;
     position: absolute;
     transition-property: transform;

@@ -24,7 +24,7 @@
 
                   <div class="news__img">
                     <img
-                      src="https://static1.squarespace.com/static/5aad6322372b965529462b69/t/5abed9aa88251bcf7a07ed2e/1544460096665/20150310_8426.jpg"
+                      data-src="https://static1.squarespace.com/static/5aad6322372b965529462b69/t/5abed9aa88251bcf7a07ed2e/1544460096665/20150310_8426.jpg"
                       alt="news">
                   </div>
                 </a>
@@ -46,7 +46,7 @@
                   </p>
 
                   <div class="news__img">
-                    <img src="http://www.hologram3ddisplay.com/photo/hologram3ddisplay/editor/20180228165924_36048.jpg"
+                    <img data-src="http://www.hologram3ddisplay.com/photo/hologram3ddisplay/editor/20180228165924_36048.jpg"
                       alt="news">
                   </div>
                 </a>
@@ -68,7 +68,7 @@
                   </p>
 
                   <div class="news__img">
-                    <img src="http://www.oracleprojects.com/v3/Images/pict_3dhologram_hologram04.jpg" alt="news">
+                    <img data-src="http://www.oracleprojects.com/v3/Images/pict_3dhologram_hologram04.jpg" alt="news">
                   </div>
                 </a>
               </div>
@@ -90,7 +90,7 @@
 
                   <div class="news__img">
                     <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpyXksguF384CyWOzq80gsw50Al1dsQM9yUQAYmi7u_ETQGiDT"
+                      data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpyXksguF384CyWOzq80gsw50Al1dsQM9yUQAYmi7u_ETQGiDT"
                       alt="news">
                   </div>
                 </a>
@@ -113,7 +113,7 @@
 
                   <div class="news__img">
                     <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeeHhwuvq2Zgm2IhcGn2B-I4-BjkE3qzt-eg5CoZfC0FbPAV4"
+                      data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeeHhwuvq2Zgm2IhcGn2B-I4-BjkE3qzt-eg5CoZfC0FbPAV4"
                       alt="news">
                   </div>
                 </a>
@@ -136,7 +136,7 @@
 
                   <div class="news__img">
                     <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMvrwnShdnaDOofRL_paoWVncLfUvj4kzKCRyWePRalJriQOan"
+                      data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMvrwnShdnaDOofRL_paoWVncLfUvj4kzKCRyWePRalJriQOan"
                       alt="news">
                   </div>
                 </a>
@@ -190,5 +190,5 @@
       </div>
       <video autoplay loop="" width="100%" muted=""
         style="min-width: 476px;   margin: 100px 0 0; min-height: 476px;;position: absolute; top: 0;width: 100%;left: 0;z-index: -1;"
-        data-load-priority="0" src="<?php echo get_template_directory_uri();?>/assets/img/wl-waves-top-922.webm"></video>
+        data-load-priority="0" data-src="<?php echo get_template_directory_uri();?>/assets/img/wl-waves-top-922.webm"></video>
     </div>
