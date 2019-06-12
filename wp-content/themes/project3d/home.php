@@ -1,5 +1,6 @@
   <?php get_header(); ?>
 
+  
     <?php  get_template_part('partials/banner'); ?>
     <!-- 2 -->
     <?php  get_template_part('partials/featured'); ?>
@@ -13,4 +14,4 @@
     
     <!-- Shop section end -->
 
-     <?php get_footer(); ?>
+  <?php get_footer(); ?>
