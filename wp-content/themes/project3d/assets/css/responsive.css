@@ -1,0 +1,345 @@
+
+/* Medium screen : 992px. */
+@media only screen and (min-width:2560px) and (max-width: 3000px){
+ 
+
+	
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.slick-prev {
+    left: 330px;
+}
+.slick-next {
+    right: 330px;
+}
+.blog .card-blog {
+    width: auto;
+}
+}
+
+/* Tablet :768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .responsive-nav{
+    display:initial;
+    margin: 20px 0;
+    }
+    .navbar-brand-r{
+          width: 100%;
+    }
+    .navbar-brand-r img{
+      width: 120px;
+    }
+    .home h1{
+      font-size:2rem;
+    }
+     .home .slick-next,.home .slick-prev{
+      display:none!important;
+    }
+
+    .slick-next {
+     left: 590px;
+    }
+   .slick-next, .slick-prev {
+    top: -50px;
+    }
+    .slick-next, .slick-prev {
+    background: -webkit-linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+    background: linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+      }
+    .body-category {
+        width: 200px;
+        height: 200px;
+    }
+    .category-btn .cta {
+    position: absolute;
+    margin: 0 -51%;
+    padding: 0;
+    bottom: 50px;
+    }
+
+    .news-date {
+        display: none!important;
+    }
+    .news__img {
+    height: 150px;
+    }
+
+
+
+
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (max-width: 767px) {
+
+}
+
+/* Small Mobile :320px. */
+
+@media only screen and (max-width: 479px) {
+   .responsive-nav{
+    display:initial;
+    margin: 20px 0;
+    }
+    .navbar-brand-r{
+          width: 100%;
+    }
+    .navbar-brand-r img{
+      width: 120px;
+    }
+    .home h1 {
+    font-size: 2rem;
+    }
+    #fp-nav {
+    display: none;
+    }
+    .card-product h1 {
+    left: -20px;
+    }
+    .center {
+    margin: 0;
+    }
+   .product-home{
+        height: 100vh;
+    }
+    .center-j {
+    height: auto;
+     }
+   .body-category {
+    margin-bottom: 20px;
+    height: 140px;
+    }
+        
+    .title-product {
+        font-size: 26px;
+        margin: 25px;
+    }
+    .category .front .title {
+        font-size: 20px;
+    }
+    .category .back .title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .cta {
+        padding: 9px 20px;
+    }
+    .titles h1 {
+        font-size: 25px;
+        margin: 10px;
+    }
+    .item-bg {
+
+        border: .5px solid transparent;
+    }
+    .news__item {
+        padding: 0 35px!important;
+    }
+    .news__title {
+        font-size: 18px!important;
+      
+    }
+    .news__txt {
+        font-size: 14px!important;
+    }
+    .news-slider__pagination {
+    
+        margin-top: 60px!important;
+    }
+    .blog .card-blog {
+        width: 100%;
+    }
+    footer {
+        margin: 0;
+    }
+    .slick-next {
+        right: 40px;
+    }
+    .slick-prev {
+        left: 40px;
+    }
+    .slick-next, .slick-prev {
+        background: -webkit-linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+        background: linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+        top: 104%;
+        z-index:9;
+    }
+    .home .slick-next,.home .slick-prev{
+      display:none!important;
+    }
+    .product-home .center {
+        margin: 80px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* menu responsive */
+
+.line{
+   height: 1px;
+   background: white;
+   width: 100%;
+   position: absoluted;
+   display: inline-block;
+}
+
+.box-menu{
+    width: 30px;
+    height: 25px;
+  /*   background: black; */
+    position: relative;
+    display: flex;
+   /*  align-items: stretch; */
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.button-burger{
+    color: white;
+    position: fixed;
+    top: 20px;
+  right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.menu{
+    background: #9e129e;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+    padding: 20px;
+}
+
+.menu ul {
+   padding: 0;
+   flex: 1;
+}
+
+.frame-menu{
+  border: 2px dashed white;
+	width: 100%;
+	height: 100%;
+}
+
+.menu.active{
+	left: 0;
+}
+
+.menu li {
+  display: block;
+  margin: 0;
+  padding: 8px 0;
+  text-align: center;  
+}
+
+  .menu li > a {
+     color: transparent;
+     color: white;
+     font-size: 30px;
+     font-weight: bold;
+  }
+
+
+/*!
+ * Hamburgerss
+ */
+.hamburger {
+  padding: 0;
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible; 
+}
+  
+/* .hamburger:hover 
+{
+    opacity: 0.7; 
+}
+ */
+.hamburger-box {
+  width: 30px;
+  height: 25px;
+  display: inline-block;
+  position: relative;
+  font-size: 2.5rem;
+       }
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -2px; }
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    width: 100%;
+    height: 1px;
+        background-color: #ffffff;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease; }
+  .hamburger-inner::before, .hamburger-inner::after {
+    content: "";
+    display: block; }
+  .hamburger-inner::before {
+    top: -10px; }
+  .hamburger-inner::after {
+    bottom: -10px; }
+
+/*
+
+
+
+/* Squeeze */
+   
+.hamburger--squeeze .hamburger-inner {
+  transition-duration: 0.075s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  .hamburger--squeeze .hamburger-inner::before {
+    transition: top 0.075s 0.12s ease, opacity 0.075s ease; }
+  .hamburger--squeeze .hamburger-inner::after {
+    transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+
+.hamburger--squeeze.is-active .hamburger-inner {
+  transform: rotate(45deg);
+  transition-delay: 0.12s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  .hamburger--squeeze.is-active .hamburger-inner::before {
+    top: 0;
+    opacity: 0;
+    transition: top 0.075s ease, opacity 0.075s 0.12s ease; }
+  .hamburger--squeeze.is-active .hamburger-inner::after {
+    bottom: 0;
+    transform: rotate(-90deg);
+    transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
+
+
+/* Squeeze */
