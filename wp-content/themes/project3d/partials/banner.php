@@ -6,7 +6,7 @@
 <!-- end navbar -->
   
       <div id="home" class="home">
-        <canvas id="3D-background-three-canvas5"></canvas>
+        <!-- <canvas id="3D-background-three-canvas5"></canvas> -->
         <div class="titulo-banner">
          <div class="content">
             <h1>The future of 3D holographic technology </h1>
