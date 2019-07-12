@@ -13,7 +13,7 @@
     background: red;
 }
  */
- /* .navbar {
+/* .navbar {
 
     background:#0a0018;
     padding: 5px 0;
@@ -26,11 +26,10 @@ body {
 
 canvas {
     position: absolute;
-    position: absolute;
-    top: 183px;
+    top: -106px;
     left: 0;
-    width: 60%;
-    height: 450px !important;
+    width: auto;
+    height: auto;
     z-index: 9;
 
 }
@@ -53,10 +52,11 @@ h1 {
     font-weight: 600;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
+
 /**
 Fixed button outside the fullpage.js wrapper
 */
-#moveTo{
+#moveTo {
     bottom: 0;
     right: 26px;
     position: absolute;
@@ -69,7 +69,8 @@ Fixed button outside the fullpage.js wrapper
     width: 30px;
     text-align: center;
     background: linear-gradient(96deg, rgba(5, 254, 255, .3), rgba(4, 16, 184, .3));
-  }
+}
+
 ::-webkit-scrollbar {
     width: 8px;
     /* Tamaño del scroll en vertical */
@@ -96,11 +97,13 @@ Fixed button outside the fullpage.js wrapper
     top: 150px;
 
 }
-.responsive-nav{
-    display:none;
+
+.responsive-nav {
+    display: none;
 }
-.bx{
-        font-size: 1.2rem;
+
+.bx {
+    font-size: 1.2rem;
 }
 
 .info span {
@@ -1532,7 +1535,7 @@ a.after:hover:after {
     .news__item:hover .news__txt {
         opacity: 1;
         transition-delay: .1s;
-        color:#fff;
+        color: #fff;
     }
 
     .news__item:hover .news__img {
@@ -1573,7 +1576,7 @@ a.after:hover:after {
     display: inline-block;
     opacity: .7;
     transition: opacity .3s;
-    color:#fff;
+    color: #fff;
 }
 
 @media screen and (max-width: 576px) {
@@ -1590,7 +1593,7 @@ a.after:hover:after {
     font-size: 15px;
     /* margin-bottom: 6px; */
     font-weight: 500;
-    color:#fff;
+    color: #fff;
 }
 
 @media screen and (max-width: 576px) {
@@ -1602,7 +1605,7 @@ a.after:hover:after {
 .news-date__txt {
     font-size: 15px;
     text-align: initial;
-    
+
 }
 
 .section {
@@ -1617,7 +1620,7 @@ a.after:hover:after {
     /* margin-bottom: 15px; */
     transition: opacity .3s;
     text-align: initial;
-    color:#fff;
+    color: #fff;
 }
 
 @media screen and (max-width: 576px) {
@@ -1634,7 +1637,7 @@ a.after:hover:after {
     opacity: .7;
     transition: opacity .3s;
     text-align: initial;
-    color:#fff;
+    color: #fff;
 }
 
 .news__img {
