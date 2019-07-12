@@ -52,7 +52,7 @@
               <img src="<?php echo get_template_directory_uri();?>/assets/img/Logo.png" width="60" alt="" />
             </a>
             <li class="nav-item">
-              <a class="nav-link eigth before after down" href="#">Blog</a>
+              <a class="nav-link eigth before after down" href="<?php bloginfo('url') ?>/index.php/blog/">Blog</a>
             </li>
             <li class="nav-item">
               <a class="nav-link eigth before after down" href="#">FAQs</a>
