@@ -1,4 +1,7 @@
+<?php  get_template_part('partials/nav'); ?>
+
 <?php
+
 /**
  * The Template for displaying all single products
  *

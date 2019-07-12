@@ -250,3 +250,13 @@ swiper.on('slideChangeTransitionEnd', function () {
   bg.style.height = height + 'px';
   bg.style.transform = 'translateX(' + x + 'px ) translateY(' + y + 'px)';
 });
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 100) {
+      $('a.scroll-top').fadeIn('slow');
+
+  } else {
+      $('a.scroll-top').fadeOut('slow');
+  }
+});
+

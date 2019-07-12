@@ -6,8 +6,8 @@
 <meta name="keywords" content="fan">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Project3D</title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/fullpage.min.css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/style.css" />
   <!-- Resource style -->
@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick-config.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css" />
-
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed:800,900&display=swap" rel="stylesheet">
 
   <?php wp_head(); ?>
 </head>
