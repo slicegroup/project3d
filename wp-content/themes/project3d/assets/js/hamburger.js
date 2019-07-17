@@ -7,3 +7,11 @@ function toggleMenu(){
     $squeeze.classList.toggle('is-active');
 };
 $burguer.addEventListener('click',toggleMenu);
+
+$(function () {
+    'use strict'
+
+    $('[data-toggle="offcanvas"]').on('click', function () {
+      $('.offcanvas-collapse').toggleClass('open')
+    })
+  })

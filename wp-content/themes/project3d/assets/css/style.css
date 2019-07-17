@@ -1717,15 +1717,17 @@ body>.dg {
     text-align: center;
     transition: all 0.4s;
     background-size: 100%;
-  }
-  .blog-card a{ 
-  color:#fff;
-    text-decoration:none;
-    transition:all 0.2s;
+}
+
+.blog-card a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s;
     padding: 10px;
-  }
-  .blog-card .color-overlay {
-    background: rgba(64, 84, 94,0.5);
+}
+
+.blog-card .color-overlay {
+    background: rgba(64, 84, 94, 0.5);
     width: 500px;
     height: 350px;
     position: absolute;
@@ -1733,9 +1735,10 @@ body>.dg {
     top: 0;
     left: 0;
     transition: background 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
-  }
-  .blog-card .gradient-overlay {  
-    background-image: linear-gradient(transparent 0%, rgba(144, 144, 144, 0.17) 21%);    
+}
+
+.blog-card .gradient-overlay {
+    background-image: linear-gradient(transparent 0%, rgba(144, 144, 144, 0.17) 21%);
     width: 500px;
     height: 350px;
     position: absolute;
@@ -1743,21 +1746,26 @@ body>.dg {
     left: 0;
     z-index: 15;
     cursor: pointer;
-  }
-  .blog-card:hover{
-      box-shadow: 0px 18px 20px -9px rgba(0, 10, 30, 0.75);
-  }
-  .blog-card:hover .card-info {
+}
+
+.blog-card:hover {
+    box-shadow: 0px 18px 20px -9px rgba(0, 10, 30, 0.75);
+}
+
+.blog-card:hover .card-info {
     opacity: 1;
     bottom: 60px;
-  }
-  .blog-card:hover .color-overlay {
-    background: rgba(64, 64, 70,0.8);
-  }
-  .blog-card:hover .title-content{
-    margin-top:70px
-  }
-  .title-content {
+}
+
+.blog-card:hover .color-overlay {
+    background: rgba(64, 64, 70, 0.8);
+}
+
+.blog-card:hover .title-content {
+    margin-top: 70px
+}
+
+.title-content {
     text-align: center;
     margin: 150px 0 0 0;
     position: absolute;
@@ -1765,50 +1773,55 @@ body>.dg {
     width: 100%;
     top: 0;
     left: 0;
-    transition:all 0.6s
-  }
-  
-  .blog-card:hover h3:after{
-   
-    animation: changeLetter 0.3s 1 linear;
-    width:80%
-  }
-  
+    transition: all 0.6s
+}
 
-  .blog-card h3 a{  
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);  
-    transition:all 0.2s
-  }
-  .blog-card h3 a:hover{
+.blog-card:hover h3:after {
+
+    animation: changeLetter 0.3s 1 linear;
+    width: 80%
+}
+
+
+.blog-card h3 a {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s
+}
+
+.blog-card h3 a:hover {
     text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.95);
-  }
-  
-  
-  @keyframes changeLetter {
+}
+
+
+@keyframes changeLetter {
     0% {
-      width: 10%;
+        width: 10%;
     }
+
     100% {
-      width: 80%;
+        width: 80%;
     }
-  }
-  
-  .intros {
+}
+
+.intros {
     width: 170px;
     margin: 0 auto;
     color: #ddd;
     font-style: italic;
     line-height: 18px;
-  }
-  .intro a{
+}
+
+.intro a {
     color: #ddd
-  }
-  .intro a:hover{
-    text-decoration:underline
-  }
-  .card-info {
+}
+
+.intro a:hover {
+    text-decoration: underline
+}
+
+.card-info {
     display: inline-grid;
-     box-sizing: border-box;
+    box-sizing: border-box;
     padding: 0;
     width: 100%;
     position: absolute;
@@ -1821,72 +1834,182 @@ body>.dg {
     z-index: 20;
     opacity: 0;
     transition: bottom 0.64s, opacity 0.63s cubic-bezier(0.33, 0.66, 0.66, 1);
-  }
-  
-  .card-info a{
+}
+
+.card-info a {
     display: inline-block;
     font-size: 0.8em;
-  }
+}
 
- 
-  @media (max-width:750px)
-  {
+
+@media (max-width:750px) {
     .utility-info {
-      text-align:center;
+        text-align: center;
     }
-    .utility-info ul{
-      width:100%;
-      margin:0;
-      box-sizing:border-box
+
+    .utility-info ul {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box
     }
-    .utility-info li{
-      width:49%;
-      display:inline-block;
-      box-sizing:border-box;
-      margin:0
+
+    .utility-info li {
+        width: 49%;
+        display: inline-block;
+        box-sizing: border-box;
+        margin: 0
     }
-  }
-  
-  @media (max-width:500px){
-    .utility-info li:last-of-type{
-      width:100%
+}
+
+@media (max-width:500px) {
+    .utility-info li:last-of-type {
+        width: 100%
     }
-    .card-info{
-      display:none
+
+    .card-info {
+        display: none
     }
-    .blog-card:hover .title-content,.title-content{
-    margin-top:40px
-  }
-  .blog-card{
-    height:300px
-  }
-  .blog-card h3{
-    font-size:1.3em
-  }
-  .intro{
-    font-size:0.8em
-  }
-  }
-  
-  .card-all{
-      height: 60vh;;
-  }
+
+    .blog-card:hover .title-content,
+    .title-content {
+        margin-top: 40px
+    }
+
+    .blog-card {
+        height: 300px
+    }
+
+    .blog-card h3 {
+        font-size: 1.3em
+    }
+
+    .intro {
+        font-size: 0.8em
+    }
+}
+
+.card-all {
+    height: 60vh;
+    ;
+}
+
 .ubication {
     color: #fff;
     font-size: 1.5rem;
     text-align: center;
 }
-.ubication li{
 
-}
+.ubication li {}
+
 .ubication .bx {
     font-size: 2rem;
 }
+
 .redes {
     display: inline-flex;
     list-style: none;
     margin: 25px;
 }
+
 .redes li {
     margin-left: 12px;
+}
+
+
+/* Acordeon styles */
+.wrapper .tab {
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 14px #00000014;
+}
+
+.wrapper input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.wrapper label {
+    position: relative;
+    display: block;
+    padding: 0 0 0 1em;
+    font-weight: bold;
+    line-height: 3;
+    cursor: pointer;
+    box-shadow: 0 -8px 21px black;
+    color: #ffffff;
+    background: #ffffff14;
+    border: 1px dashed #ffffff4f;
+}
+
+.blue label {
+    background: #2980b9;
+}
+
+.tab-content {
+    max-height: 0;
+    overflow: hidden;
+    background: #fff;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+}
+
+.blue .tab-content {
+    background: #3498db;
+}
+
+.tab-content p {
+    margin: 1em;
+    font-size: .9rem;
+    text-align: start;
+    color: #0a0018;
+}
+
+/* :checked */
+.wrapper input:checked~.tab-content {
+    max-height: 10em;
+}
+
+/* Icon */
+.wrapper label::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 3em;
+    height: 3em;
+    line-height: 3;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+
+.wrapper input[type=checkbox]+label::after {
+    content: "+";
+}
+
+.wrapper input[type=radio]+label::after {
+    content: "\25BC";
+}
+
+.wrapper input[type=checkbox]:checked+label::after {
+    transform: rotate(315deg);
+}
+
+.wrapper input[type=radio]:checked+label::after {
+    transform: rotateX(180deg);
+}
+
+.wrapper {
+    margin-top: 65px;
+    width: 90%;
+    max-width: 960px;
+    margin-bottom: 100px;
+    color: #fff;
+    text-align: center;
 }
