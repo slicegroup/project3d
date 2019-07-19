@@ -1,6 +1,6 @@
 <header id="caja">
   <nav class="navbar navbar-expand-lg static-top fix-top" style="     background: #0a0018;
-    box-shadow: 0 0 17px #00000085;;">
+    box-shadow: 0 0 17px #00000085;q1;">
     <div class="container">
       <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
         <div id="main">

@@ -69,3 +69,36 @@ function Banner() {
 
 }
 add_action( 'init', 'Banner', 0 );
+
+//Compatibilidad con galerías a partir de WooCommerce 3.0>
+add_action( 'after_setup_theme', 'yourtheme_setup' );  
+ 
+function yourtheme_setup() {     
+add_theme_support( 'wc-product-gallery-zoom' );     
+add_theme_support( 'wc-product-gallery-lightbox' );     
+add_theme_support( 'wc-product-gallery-slider' );
+}
+
+add_filter('woocommerce_single_product_carousel_options', 'ud_update_woo_flexslider_options');
+function ud_update_woo_flexslider_options($options) {
+      // show arrows
+      $options['directionNav'] = true;
+      $options['animation'] = "slide";
+
+      // infinite loop
+      $options['animationLoop'] = true;
+
+      // autoplay (work with only slideshow too)
+      $options['slideshow'] = true;
+      $options['autoplay'] = true;
+
+      // control par texte (boolean) ou bien par vignettes
+      $options['controlNav'] = true;
+	  $options['controlNav'] = "thumbnails";
+	  $options['directionNav'] = true;
+
+
+      // $options['mousewheel'] = true;
+
+      return $options;
+  }
