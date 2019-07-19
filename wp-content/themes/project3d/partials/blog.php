@@ -9,7 +9,7 @@
            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
           <div class="col-md-6 col-lg-4">
             <div class="wrapper">
-              <a href="#" class="card-blog">
+              <a href="<?php the_permalink() ?>" class="card-blog">
                 <div class="card__inner">
                   <img
                     data-src="<?php echo get_the_post_thumbnail_url(); ?>"
