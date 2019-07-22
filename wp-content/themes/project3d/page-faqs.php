@@ -8,52 +8,20 @@
 
    
     <div class="row">
+  <?php $args = array( 'post_type' => 'faq'); ?>   
+          <?php $loop = new WP_Query( $args ); ?>
+           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
        <div class="col-md-6">
             <div class="tab">
               <input id="tab-one" type="checkbox" name="tabs">
-              <label for="tab-one">Label One</label>
+              <label for="tab-one"><?php the_title(); ?></label>
               <div class="tab-content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                  <p><?php the_content(); ?></p>
               </div>
           </div>
-          <div class="tab">
-            <input id="tab-two" type="checkbox" name="tabs">
-            <label for="tab-two">Label Two</label>
-            <div class="tab-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
-            </div>
-          </div>
-          <div class="tab">
-            <input id="tab-three" type="checkbox" name="tabs">
-            <label for="tab-three">Label Three</label>
-            <div class="tab-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
-            </div>
+        
           </div>  
-          </div>
-
-       <div class="col-md-6">
-              <div class="tab">
-                <input id="tab-cuatro" type="checkbox" name="tabs">
-                <label for="tab-cuatro">Label One</label>
-                <div class="tab-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
-                </div>
-            </div>
-            <div class="tab">
-              <input id="tab-cinco" type="checkbox" name="tabs">
-              <label for="tab-cinco">Label Two</label>
-              <div class="tab-content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
-              </div>
-            </div>
-            <div class="tab">
-              <input id="tab-seis" type="checkbox" name="tabs">
-              <label for="tab-seis">Label Three</label>
-              <div class="tab-content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
-              </div>
-            </div>  
+        <?php endwhile; ?>
             </div>
         </div>
     </div> 
