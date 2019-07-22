@@ -19,26 +19,7 @@
               </div>
               <div class="col-md-4">
                 <div class="container">
-                  <form>
-                    <div class="group">
-                      <input type="text" required>
-                      <span class="highlight"></span>
-                      <span class="bar"></span>
-                      <label>Name</label>
-                    </div>
-                    <div class="group">
-                      <input type="text" required>
-                      <span class="highlight"></span>
-                      <span class="bar"></span>
-                      <label>Email</label>
-                    </div>
-                    <div class="group">
-                      <input type="text" required>
-                      <span class="highlight"></span>
-                      <span class="bar"></span>
-                      <label>Mesaage</label>
-                    </div>
-                  </form>
+                 <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 2, 'title' => false, 'description' => false ) ); ?>
                   <!-- <div class="blog-btn">
                     <a href="#" class="cta">
                       <span>Send</span>
