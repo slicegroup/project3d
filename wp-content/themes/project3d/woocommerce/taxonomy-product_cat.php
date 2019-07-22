@@ -17,6 +17,10 @@
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
+	$cat = $wp_query->get_queried_object();
+get_header();
 }
 
-wc_get_template( 'archive-product.php' );
+?>
+<div><h1><?php echo $cat->name; ?></h1></div>
+<?php wc_get_template( 'archive-product.php' );

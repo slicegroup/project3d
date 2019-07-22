@@ -5,20 +5,29 @@
         </div>
         <div class="center-j container">
           <div class="row">
+          <?php $args = array(
+
+            'orderby' => 'slug',
+            'order' => 'ASC'
+            );
+            $product_categories = get_terms('product_cat', $args);
+            foreach ($product_categories as $product_category):?>
+           <?php $thumbnail_id = get_woocommerce_term_meta($product_category->term_id, 'thumbnail_id', true);
+             $images = wp_get_attachment_image_src($thumbnail_id, 'medium'); ?>
             <div class="col-md-4">
               <div class="body-category">
                 <div class="category">
                   <figure class="front"
-                    style="background:url(https://images-na.ssl-images-amazon.com/images/I/71Xby5tLSoL._SL1000_.jpg)">
+                    style="background:url(<?php echo $images[0]; ?>)">
                     <span class="gradient"></span>
                     <div class="">
-                      <div class="title">Category</div>
+                      <div class="title"><?php echo $product_category->name; ?></div>
                     </div>
                   </figure>
                   <figure class="back">
                     <div class="">
-                      <div class="title">Popular products</div>
-                      <a href="#" class="cta">
+                      <div class="title"><?php echo $product_category->name; ?></div>
+                      <a href="<?php echo $url_category = get_term_link( $product_category ) ?>" class="cta">
                         <span>See More</span>
                         <i class="fa fa-arrow-right" aria-hidden="true"></i>
                       </a>
@@ -27,50 +36,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="body-category">
-                <div class="category">
-                  <figure class="front"
-                    style="background:url(https://image.made-in-china.com/43f34j10JGLRwdNMQHbv/LED-3D-Holographic-Projector-H.jpg)">
-                    <span class="gradient"></span>
-                    <div class="">
-                      <div class="title">Categories</div>
-                    </div>
-                  </figure>
-                  <figure class="back">
-                    <div class="">
-                      <div class="title">Powerful Performance</div>
-                      <a href="#" class="cta">
-                        <span>See More</span>
-                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                      </a>
-                    </div>
-                  </figure>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="body-category">
-                <div class="category">
-                  <figure class="front"
-                    style="background:url(https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2017/11/13/goods_img_big-v1/20171113185942_83274.jpg)">
-                    <span class="gradient"></span>
-                    <div class="">
-                      <div class="title">Category</div>
-                    </div>
-                  </figure>
-                  <figure class="back">
-                    <div class="">
-                      <div class="title">Scalable on Devices</div>
-                      <a href="#" class="cta">
-                        <span>See More</span>
-                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                      </a>
-                    </div>
-                  </figure>
-                </div>
-              </div>
-            </div>
+            <?php
+
+              endforeach;
+            ?>
           </div>
           <div class="category-btn">
             <a href="#" class="cta">
