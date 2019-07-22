@@ -7,6 +7,9 @@
         <div class="body-card">
           <div class="item-bg"></div>
           <div class="news-slider">
+         <?php $args = array( 'post_type' => 'events'); ?>   
+          <?php $loop = new WP_Query( $args ); ?>
+           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
             <div class="news-slider__wrp swiper-wrapper">
               <div class="news-slider__item swiper-slide">
                 <a href="#" class="news__item">
@@ -15,133 +18,22 @@
                     <span class="news-date__txt">May</span>
                   </div>
                   <div class="news__title">
-                    Lorem Ipsum Dolor Sit Amed
+                    <?php the_title(); ?>
                   </div>
 
                   <p class="news__txt">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                    Ipsum has been the industry's standard dummy text ever since the 1500s...
+                    <?php the_content(); ?>
                   </p>
 
                   <div class="news__img">
                     <img
-                      data-src="https://static1.squarespace.com/static/5aad6322372b965529462b69/t/5abed9aa88251bcf7a07ed2e/1544460096665/20150310_8426.jpg"
+                      data-src="<?php echo get_the_post_thumbnail_url(); ?>"
                       alt="news">
                   </div>
                 </a>
               </div>
-
-              <div class="news-slider__item swiper-slide">
-                <a href="#" class="news__item">
-                  <div class="news-date">
-                    <span class="news-date__title">25</span>
-                    <span class="news-date__txt">May</span>
-                  </div>
-                  <div class="news__title">
-                    Lorem Ipsum Dolor Sit Amed
-                  </div>
-
-                  <p class="news__txt">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                    Ipsum has been the industry's standard dummy text ever since the 1500s...
-                  </p>
-
-                  <div class="news__img">
-                    <img data-src="http://www.hologram3ddisplay.com/photo/hologram3ddisplay/editor/20180228165924_36048.jpg"
-                      alt="news">
-                  </div>
-                </a>
-              </div>
-
-              <div class="news-slider__item swiper-slide">
-                <a href="#" class="news__item">
-                  <div class="news-date">
-                    <span class="news-date__title">26</span>
-                    <span class="news-date__txt">May</span>
-                  </div>
-                  <div class="news__title">
-                    Lorem Ipsum Dolor Sit Amed
-                  </div>
-
-                  <p class="news__txt">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                    Ipsum has been the industry's standard dummy text ever since the 1500s...
-                  </p>
-
-                  <div class="news__img">
-                    <img data-src="http://www.oracleprojects.com/v3/Images/pict_3dhologram_hologram04.jpg" alt="news">
-                  </div>
-                </a>
-              </div>
-
-              <div class="news-slider__item swiper-slide">
-                <a href="#" class="news__item">
-                  <div class="news-date">
-                    <span class="news-date__title">27</span>
-                    <span class="news-date__txt">May</span>
-                  </div>
-                  <div class="news__title">
-                    Lorem Ipsum Dolor Sit Amed
-                  </div>
-
-                  <p class="news__txt">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                    Ipsum has been the industry's standard dummy text ever since the 1500s...
-                  </p>
-
-                  <div class="news__img">
-                    <img
-                      data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpyXksguF384CyWOzq80gsw50Al1dsQM9yUQAYmi7u_ETQGiDT"
-                      alt="news">
-                  </div>
-                </a>
-              </div>
-
-              <div class="news-slider__item swiper-slide">
-                <a href="#" class="news__item">
-                  <div class="news-date">
-                    <span class="news-date__title">28</span>
-                    <span class="news-date__txt">May</span>
-                  </div>
-                  <div class="news__title">
-                    Lorem Ipsum Dolor Sit Amed
-                  </div>
-
-                  <p class="news__txt">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                    Ipsum has been the industry's standard dummy text ever since the 1500s...
-                  </p>
-
-                  <div class="news__img">
-                    <img
-                      data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqeeHhwuvq2Zgm2IhcGn2B-I4-BjkE3qzt-eg5CoZfC0FbPAV4"
-                      alt="news">
-                  </div>
-                </a>
-              </div>
-
-              <div class="news-slider__item swiper-slide">
-                <a href="#" class="news__item">
-                  <div class="news-date">
-                    <span class="news-date__title">29</span>
-                    <span class="news-date__txt">May</span>
-                  </div>
-                  <div class="news__title">
-                    Lorem Ipsum Dolor Sit Amed
-                  </div>
-
-                  <p class="news__txt">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                    Ipsum has been the industry's standard dummy text ever since the 1500s...
-                  </p>
-
-                  <div class="news__img">
-                    <img
-                      data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMvrwnShdnaDOofRL_paoWVncLfUvj4kzKCRyWePRalJriQOan"
-                      alt="news">
-                  </div>
-                </a>
-              </div>
+              <?php endwhile; ?>
+            
             </div>
 
             <div class="news-slider__ctr">
