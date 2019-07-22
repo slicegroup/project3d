@@ -8,18 +8,13 @@
       <div id="home" class="home">
        <!--  <canvas id="3D-background-three-canvas5"></canvas>-->
         <div class="titulo-banner">
-         <div class="content">
-            <h1>The future of 3D holographic technology </h1>
+        <?php $args = array( 'post_type' => 'banner', 'posts_per_page' => 5); ?>   
+          <?php $loop = new WP_Query( $args ); ?>
+           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+        <div class="content">
+            <h1><?php the_title(); ?> </h1>
           </div>
-          <div class="content">
-            <h1>Catch the eye of your customer with 3D Graphics</h1>
-          </div>
-          <div class="content">
-            <h1>The Future of Marketing</h1>
-          </div>
-          <div class="content">
-            <h1>Get Yours and Amaze</h1>
-          </div>
+          <?php endwhile; ?>
         </div>
       </div>
     </div>
