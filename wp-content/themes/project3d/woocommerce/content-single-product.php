@@ -33,16 +33,30 @@ if ( post_password_required() ) {
 ?>
 <div class="container">
 <div class="row">
-<div class="col-md-6">
-	<h2><?php the_title(); ?></h2>
-		<div class="price-detail">
-			<p class=""> <?php echo $product->get_price_html(); ?></p>
-			<div class="btns animated wow fadeInUp ml-auto" data-wow-duration="5s">
-			
-			</div>
-			<p><?php the_content(); ?></p>
-			
-		</div>
+<div class="col-md-6 product-project">
+		
+
+			<?php
+             /**
+              * Hook: woocommerce_single_product_summary.
+              *
+              * @hooked woocommerce_template_single_title - 5
+              * @hooked woocommerce_template_single_rating - 10
+              * @hooked woocommerce_template_single_price - 10
+              * @hooked woocommerce_template_single_excerpt - 20
+              * @hooked woocommerce_template_single_add_to_cart - 30
+              * @hooked woocommerce_template_single_meta - 40
+              * @hooked woocommerce_template_single_sharing - 50
+              * @hooked WC_Structured_Data::generate_product_data() - 60
+              */
+             do_action( 'woocommerce_single_product_summary' );
+			 ?>
+			 <hr>
+        	<p>
+			<h4>Description</h4>
+
+			<?php the_content(); ?></p>
+
 	</div>
 	<div class="col-md-6">
 			<?php
