@@ -259,4 +259,3 @@ $(window).scroll(function() {
       $('a.scroll-top').fadeOut('slow');
   }
 });
-

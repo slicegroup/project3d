@@ -33,6 +33,17 @@ if ( post_password_required() ) {
 ?>
 <div class="container">
 <div class="row">
+<div class="col-md-6">
+	<h2><?php the_title(); ?></h2>
+		<div class="price-detail">
+			<p class=""> <?php echo $product->get_price_html(); ?></p>
+			<div class="btns animated wow fadeInUp ml-auto" data-wow-duration="5s">
+			
+			</div>
+			<p><?php the_content(); ?></p>
+			
+		</div>
+	</div>
 	<div class="col-md-6">
 			<?php
 		/**
@@ -45,16 +56,8 @@ if ( post_password_required() ) {
 		?>
 		
 	</div>
-	<div class="col-md-6">
-	<h2><?php the_title(); ?></h2>
-	<div class="price-detail">
-        <p class=""> <?php echo $product->get_price_html(); ?></p>
-        <div class="btns animated wow fadeInUp ml-auto" data-wow-duration="5s">
-        
-        </div>
-		<p><?php the_content(); ?></p>
-		
-	</div>
+
+
 </div>
 </div>
 

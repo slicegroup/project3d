@@ -43,6 +43,9 @@
               <a class="nav-link eigth before after down" href="#"><i class='bx bx-cart' ></i></a>
             </li>
             <li class="nav-item">
+              <a class="nav-link eigth before after down" data-toggle="modal" data-target="#exampleModalLong" href="#"><i class='bx bx-purchase-tag-alt'></i></a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link  eigth before after down" href="#"><i class='bx bx-search' ></i></a>
             </li>
           </ul>
