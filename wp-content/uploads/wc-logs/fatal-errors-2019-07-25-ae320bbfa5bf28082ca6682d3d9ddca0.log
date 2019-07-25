@@ -1,0 +1,88 @@
+2019-07-25T18:58:36+00:00 CRITICAL Uncaught Error: Call to undefined function the_categories() in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php:15
+Stack trace:
+#0 /var/www/html/project3d/wp-includes/template-loader.php(78): include()
+#1 /var/www/html/project3d/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#2 /var/www/html/project3d/index.php(17): require('/var/www/html/p...')
+#3 {main}
+  thrown in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php on line 15
+
+2019-07-25T18:58:37+00:00 CRITICAL Uncaught Error: Call to undefined function the_categories() in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php:15
+Stack trace:
+#0 /var/www/html/project3d/wp-includes/template-loader.php(78): include()
+#1 /var/www/html/project3d/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#2 /var/www/html/project3d/index.php(17): require('/var/www/html/p...')
+#3 {main}
+  thrown in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php on line 15
+
+2019-07-25T18:59:01+00:00 CRITICAL Uncaught Error: Call to undefined function the_categories() in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php:15
+Stack trace:
+#0 /var/www/html/project3d/wp-includes/template-loader.php(78): include()
+#1 /var/www/html/project3d/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#2 /var/www/html/project3d/index.php(17): require('/var/www/html/p...')
+#3 {main}
+  thrown in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php on line 15
+
+2019-07-25T18:59:01+00:00 CRITICAL Uncaught Error: Call to undefined function the_categories() in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php:15
+Stack trace:
+#0 /var/www/html/project3d/wp-includes/template-loader.php(78): include()
+#1 /var/www/html/project3d/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#2 /var/www/html/project3d/index.php(17): require('/var/www/html/p...')
+#3 {main}
+  thrown in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php on line 15
+
+2019-07-25T19:02:36+00:00 CRITICAL Uncaught Error: Call to undefined function the_categories() in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php:14
+Stack trace:
+#0 /var/www/html/project3d/wp-includes/template-loader.php(78): include()
+#1 /var/www/html/project3d/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#2 /var/www/html/project3d/index.php(17): require('/var/www/html/p...')
+#3 {main}
+  thrown in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php on line 14
+
+2019-07-25T19:02:37+00:00 CRITICAL Uncaught Error: Call to undefined function the_categories() in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php:14
+Stack trace:
+#0 /var/www/html/project3d/wp-includes/template-loader.php(78): include()
+#1 /var/www/html/project3d/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#2 /var/www/html/project3d/index.php(17): require('/var/www/html/p...')
+#3 {main}
+  thrown in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php on line 14
+
+2019-07-25T19:02:49+00:00 CRITICAL Uncaught Error: Call to undefined function the_categories() in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php:15
+Stack trace:
+#0 /var/www/html/project3d/wp-includes/template-loader.php(78): include()
+#1 /var/www/html/project3d/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#2 /var/www/html/project3d/index.php(17): require('/var/www/html/p...')
+#3 {main}
+  thrown in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php on line 15
+
+2019-07-25T19:02:49+00:00 CRITICAL Uncaught Error: Call to undefined function the_categories() in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php:15
+Stack trace:
+#0 /var/www/html/project3d/wp-includes/template-loader.php(78): include()
+#1 /var/www/html/project3d/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#2 /var/www/html/project3d/index.php(17): require('/var/www/html/p...')
+#3 {main}
+  thrown in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php on line 15
+
+2019-07-25T19:03:39+00:00 CRITICAL Uncaught Error: Call to undefined function the_categories() in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php:15
+Stack trace:
+#0 /var/www/html/project3d/wp-includes/template-loader.php(78): include()
+#1 /var/www/html/project3d/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#2 /var/www/html/project3d/index.php(17): require('/var/www/html/p...')
+#3 {main}
+  thrown in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php on line 15
+
+2019-07-25T19:03:40+00:00 CRITICAL Uncaught Error: Call to undefined function the_categories() in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php:15
+Stack trace:
+#0 /var/www/html/project3d/wp-includes/template-loader.php(78): include()
+#1 /var/www/html/project3d/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#2 /var/www/html/project3d/index.php(17): require('/var/www/html/p...')
+#3 {main}
+  thrown in /var/www/html/project3d/wp-content/themes/project3d/page-blog.php on line 15
+
+2019-07-25T19:22:49+00:00 CRITICAL Uncaught Error: Call to undefined function the_except() in /var/www/html/project3d/wp-content/themes/project3d/single.php:6
+Stack trace:
+#0 /var/www/html/project3d/wp-includes/template-loader.php(78): include()
+#1 /var/www/html/project3d/wp-blog-header.php(19): require_once('/var/www/html/p...')
+#2 /var/www/html/project3d/index.php(17): require('/var/www/html/p...')
+#3 {main}
+  thrown in /var/www/html/project3d/wp-content/themes/project3d/single.php on line 6
+
