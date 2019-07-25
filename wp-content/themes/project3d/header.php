@@ -18,7 +18,10 @@
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.csshttps://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/woocommerce-style.css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css" />
+
+
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/animate.css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick-config.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />

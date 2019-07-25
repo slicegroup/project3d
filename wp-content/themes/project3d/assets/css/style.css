@@ -26,11 +26,11 @@ body {
 
 canvas {
     position: absolute;
-    top: -106px;
+    top: 0px;
     left: 0;
     width: auto;
     height: auto;
-    z-index: 9;
+    z-index: 0;
 
 }
 
@@ -2012,58 +2012,3 @@ body>.dg {
     color: #fff;
     text-align: center;
 }
-
-
-
-
-.woocommerce-product-gallery__image  img{ 
-    object-fit: cover!important;
-    background-repeat: no-repeat!important;
-    height: 450px;
-    width: 100%;
-  }
-
-  
-
-.flex-viewport {
-   
-    width: 100%;
-    object-fit: cover!important;
-}
-
-.flex-control-nav img {
-    width: 100px;
-    height: 95px;
-    margin: 0 -3px;
-    object-fit: cover;
-    object-position: top;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    cursor: pointer;
-}
-
-.flex-control-nav li {
-    display: inline-block;
-}
-ul.flex-direction-nav {
-    position: absolute;
-    top: 30%;
-    z-index: 99999;
-    width: 100%;
-    left: 0;
-    margin: 0;
-    padding: 0px;
-    list-style: none;}
-
-li.flex-nav-prev {float: left;}
-li.flex-nav-next {float: right;}
-a.flex-next {visibility:hidden;}
-a.flex-prev {visibility:hidden;}
-a.flex-next::after {visibility:visible;content: '\f105';
-    font-family: FontAwesome;margin-right: 10px;font-size: 70px;    }
-a.flex-prev::before {
-    visibility:visible;
-    content: '\f104';
-    font-family: FontAwesome;    margin-left: 10px;font-size: 70px;}
