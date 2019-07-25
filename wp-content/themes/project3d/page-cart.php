@@ -16,6 +16,7 @@
  * @version 1.0
  */
 ?>	
+<?php  get_template_part('partials/nav'); ?>
 <div class="container">
 	<?php echo do_shortcode('[woocommerce_cart]'); ?>
 </div>

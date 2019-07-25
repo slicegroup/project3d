@@ -37,7 +37,7 @@
               <a class="nav-link eigth before after down" href="<?php bloginfo('url') ?>/faqs/">FAQs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link eigth before after down" href="<?php bloginfo('url') ?>contact/">Contact</a>
+              <a class="nav-link eigth before after down" href="<?php bloginfo('url') ?>/contact/">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link eigth before after down" href="#"><i class='bx bx-cart' ></i></a>
