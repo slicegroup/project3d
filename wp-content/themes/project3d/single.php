@@ -13,7 +13,35 @@
       </div>
     </div>
     <div class="col-md-4">
-      <h3>Featured Products</h3>
+    <h3><?php echo _e('Related posts','apk'); ?></h3>
+				<hr> 
+        <?php $terms = get_the_terms( get_the_ID(), 'category'); $categ = array();
+			$loop	= new WP_QUERY(array(
+				'category__in'		=> $categ,
+				'posts_per_page'	=> 4,
+				'post__not_in'		=>array(get_the_ID()),
+				'orderby'			=>'rand'
+			));
+
+      if ( $loop->have_posts() ){ while ( $loop->have_posts() ){ $loop->the_post();?>
+      
+      <a href="<?php the_permalink() ?>">
+       <div class="related">
+            <div class="card-product" data-tilt>   
+            
+<div class="card-shadow bg" style="background-image:url(<?php the_post_thumbnail_url();?>)"></div>
+         
+            </div>
+            <span class="product_name"><h2> <?php the_title(); ?></h2></span> 
+       <!-- <p><?php the_excerpt(); ?> </p> -->
+        </div>
+
+       
+
+       </div>
+      </a>    
+
+<?php	}}	wp_reset_query();?>
    
     </div>
   </div>
