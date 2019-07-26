@@ -70,7 +70,7 @@ if ( post_password_required() ) {
 	   </div>
 		</div>
         <img class="back-product" src="<?php echo get_template_directory_uri();?>/assets/img/bg.png" width="60" alt="" />
-  </div>
+
 				<!-- 
 				<section class="Lineas">
 					<div class="anim-icons">
@@ -84,5 +84,5 @@ if ( post_password_required() ) {
 				<!-- 3 -->
 				
 				<?php  get_template_part('partials/categories'); ?>
-
+        </div>
 </div>
