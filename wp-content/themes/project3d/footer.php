@@ -40,8 +40,16 @@
           </div>
       </footer>
   <video autoplay loop="" width="100%" muted=""
-        style="min-width: 476px;   margin: 100px 0 0; min-height: 476px;;position: absolute; top: 0;width: 100%;left: 0;z-index: 1;    top: 200px;"
-        data-load-priority="0" src="eimg/vv.webm"></video> 
+        style="  min-width: 476px;
+  margin: 100px 0 0;
+  min-height: 476px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+  top: 200px;"
+        data-load-priority="0" src="<?php echo get_template_directory_uri();?>/assets/img/vv.webm"></video> 
     </div>
 
   </div>

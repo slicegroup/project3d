@@ -845,9 +845,11 @@ footer {
     top: 400px;
 }
 
-/* .footer-bg {
+.footer-bg {
     background: #0b0323;
-} */
+    position: relative;
+    overflow-y: hidden;
+}
 
 .f-title h1 {
     color: #fff;
@@ -881,8 +883,9 @@ footer {
     border-bottom: 1px solid #fff !important;
     padding: 10px !important;
     width: 300px !important;
-    height: 50px !important;
+    height: 30px !important;
     background: transparent !important;
+    border-radius: 0!important;
 }
 
 #form_contact-us input:focus {
@@ -1895,10 +1898,16 @@ body>.dg {
 .ubication {
     color: #fff;
     font-size: 1.5rem;
-    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.ubication li {}
+.ubication ul{
+    list-style: none;
+}
 
 .ubication .bx {
     font-size: 2rem;
