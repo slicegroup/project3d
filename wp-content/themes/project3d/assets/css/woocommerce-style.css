@@ -330,3 +330,18 @@ height: 37px;
   font-family: 'Montserrat', sans-serif!important;
   background-color: transparent!important;
 }
+
+.wc-forward {
+  color: #05d6f3!important;
+  border-bottom: 1px solid!important;
+  margin: 0 12px!important;
+  padding: 1em 2em 1em 7.5em!important;
+}
+.woocommerce-error::before, .woocommerce-info::before, .woocommerce-message::before {
+
+  left: 5.5em!important;
+}
+.woocommerce-message::before {
+  content: "\e015";
+  color: #05e5f8!important;
+}
