@@ -31,7 +31,8 @@ if ( post_password_required() ) {
 	return;
 }
 ?>
-<div class="container">
+<div class="project-product-details">
+<div class="container detailss">
 <div class="row">
 <div class="col-md-6 product-project">
 		
@@ -73,6 +74,18 @@ if ( post_password_required() ) {
 
 
 </div>
+
+
 </div>
+<img class="back-product" src="<?php echo get_template_directory_uri();?>/assets/img/bg.png" width="60" alt="" />
 
-
+<section class="Lineas">
+	<div class="anim-icons">
+		<span class="icon shape-5"></span>
+	</div>
+</section>
+   <!-- 2 -->
+   <?php  get_template_part('partials/featured'); ?>
+   <!-- 3 -->
+   <?php  get_template_part('partials/categories'); ?>
+</div>

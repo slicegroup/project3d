@@ -112,6 +112,8 @@ a.flex-prev::before {
     font-size: 2rem;
     color: #fff;
     font-weight: 800;
+    margin-bottom: 25px;
+
 }
 
 .price-detail {
@@ -124,6 +126,7 @@ a.flex-prev::before {
     text-align: center;
     border: none;
     color: #0c2dc1;
+    height: 36px;
   }
 
   .quantity {
@@ -135,6 +138,7 @@ a.flex-prev::before {
     background: white;
   color: #314dca;
 ;
+height: 37px;
     border: none;
 }
 
@@ -172,3 +176,130 @@ a.flex-prev::before {
     color:#fff;
     font-size: 1.2rem;
   }
+  .single_add_to_cart_button
+  [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    background: -webkit-linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+    background: linear-gradient(96deg, rgb(5, 254, 255), rgb(4, 16, 184));
+    height: 40px;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    padding: 0 20px;
+    margin-left: 40px;
+  }
+ .detailss .slick-slide {
+    height: 400px !important;
+  }
+
+  .back-product {
+    width: 100%;
+    height: 110vh;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+
+  .single_add_to_cart_button [type=submit]:not(:disabled), button:not(:disabled):hover {
+
+    background: #fff;
+    color: #0441c6;
+  }
+
+
+  .shape-5 {
+    height: 400px!important;
+    width: 400px!important;
+    background-image: url(../img/Lineas.svg);
+    z-index: 3;
+    position: absolute;
+    opacity: .1;
+    background-repeat: no-repeat;
+  }
+  
+ .shape-5{
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+    animation-timing-function: cubic-bezier(0.54, 0.085, 0.5, 0.92);
+    -webkit-animation-name: float_up_down_two;
+    animation-name: float_up_down_two;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s
+}
+/* Bob Up Down*/
+@-webkit-keyframes float_up_down {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  50% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes float_up_down {
+  0% {
+    transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(30px);
+    transform: translateY(30px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+
+@-webkit-keyframes float_up_down_two {
+    0% {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px)
+    }
+    50% {
+        -webkit-transform: rotateX(0deg) translateY(15px);
+        transform: rotateX(0deg) translateY(15px)
+    }
+    to {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px)
+    }
+}
+
+@keyframes float_up_down_two {
+    0% {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px)
+    }
+    50% {
+        -webkit-transform: rotateX(0deg) translateY(15px);
+        transform: rotateX(0deg) translateY(15px)
+    }
+    to {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px)
+    }
+}
+
+.project-product-details .quit {
+  display: none;
+}
