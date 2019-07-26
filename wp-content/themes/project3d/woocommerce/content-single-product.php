@@ -31,7 +31,7 @@ if ( post_password_required() ) {
 	return;
 }
 ?>
-<div id="fullpage">
+<div >
 	<div class="project-product-details section"  id="section0">
 		<div class="container detailss " >
 		 <div class="row">
