@@ -7,10 +7,10 @@
         <div class="body-card">
           <div class="item-bg"></div>
           <div class="news-slider">
+            <div class="news-slider__wrp swiper-wrapper">
          <?php $args = array( 'post_type' => 'events'); ?>   
           <?php $loop = new WP_Query( $args ); ?>
            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-            <div class="news-slider__wrp swiper-wrapper">
               <div class="news-slider__item swiper-slide">
                 <a href="#" class="news__item">
                   <div class="news-date">

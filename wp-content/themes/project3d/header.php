@@ -5,7 +5,7 @@
 <meta name="description" content="<?php bloginfo('description'); ?>">
 <meta name="keywords" content="fan">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Project3D</title>
+  <title><?php wp_title('|', true, 'right'); ?></title>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/offcanvas.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/fullpage.min.css" />

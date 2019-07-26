@@ -1,14 +1,20 @@
 <?php
 get_header();
 ?>
-
+<?php  get_template_part('partials/nav'); ?>
 <section class="shop-section space-s">
-        <h1 class="titulos cssanimation leFadeIn sequence" data-wow-iteration="5" data-wow-duration="0.15s">Most Requested Companions</h1>
+  <?php if (have_posts()): ?>
+    
+  <div style="display: flex; align-items: center; justify-content: center;">
+    
+       <h1 style="color: white;">Results for:  <?php echo get_search_query(); ?>
+        </h1>
+  </div>
         <div class="container">
             <div class="row">
              
 
-                 <?php while ( have_posts() ) : the_post(); global $product; ?>
+                 <?php  while ( have_posts() ) : the_post(); global $product; ?>
                    
                 <div class="col-lg-3 col-sm-6 animated wow fadeInLeft" data-wow-duration="3s">
                 <a href="<?php the_permalink() ?>">
@@ -30,7 +36,14 @@ get_header();
                 </div>
             
                 
-                  <?php endwhile; ?>
+                  <?php endwhile; else: ?>
+
+                   <div style="display: flex; align-items: center; justify-content: center;">
+    
+       <h1 style="color: white;">Not Results for:  <?php echo get_search_query(); ?>
+        </h1>
+  </div>
+<?php endif; ?>
               
             </div>
 
