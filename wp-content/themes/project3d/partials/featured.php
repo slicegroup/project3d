@@ -1,6 +1,6 @@
 
    <!-- 2 -->
- <div class="section" id="section1">
+ <div class="section position" id="section1">
       <div class="intro">
         <!-- popular product -->
         <div class="product-home">
@@ -32,6 +32,6 @@
       </div>
       <video class="quit" autoplay loop="" width="100%" muted=""
         style="min-width: 476px; min-height: 476px;position: absolute; top: 0;width: 100%;left: 0;z-index: -1;"
-        data-load-priority="0" data-src="<?php echo get_template_directory_uri();?>/assets/img/wl-waves-top-922.webm"></video>
+        data-load-priority="0" src="<?php echo get_template_directory_uri();?>/assets/img/wl-waves-top-922.webm"></video>
     </div>
 </div>
