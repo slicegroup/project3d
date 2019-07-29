@@ -1,4 +1,5 @@
-    <!-- 5 -->
+<div class="gradient-dark" ></div>
+   <!-- 5 -->
     <div class="section footer-bg" id="section5">
       <div class="f-title">
         <h1>Contact Us</h1>

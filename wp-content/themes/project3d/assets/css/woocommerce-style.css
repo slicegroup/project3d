@@ -306,11 +306,12 @@ height: 37px;
 }
 
 .gradient-dark {
-  background: linear-gradient(180deg, rgb(2, 2, 13) 35%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(180deg, rgb(10, 0, 24) 35%, rgba(0,0,0,0) 100%);
   z-index: 0;
   width: 100%;
-  height: 500px;
+  height: 74px;
   position: absolute;
+  z-index: 1;
 }
 .position {
   position: relative;

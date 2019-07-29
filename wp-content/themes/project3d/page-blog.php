@@ -7,7 +7,7 @@ Latest blog articles</h1>
   <?php $args = array( 'post_type' => 'post', 'posts_per_page' => 3); ?>   
           <?php $loop = new WP_Query( $args ); ?>
            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-   <div class="col-md-6">
+   <div class="col-md-6 col-lg-6 col-sm-12">
     <div class="blog-card spring-fever" style=" background: url('<?php echo get_the_post_thumbnail_url(); ?>');      background-size: cover;
                 background-position: center;background-repeat: no-repeat;">
         <div class="title-content">
@@ -31,5 +31,5 @@ Latest blog articles</h1>
   
 </div>
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
-
+	<div class="gradient-dark" ></div>
 <?php get_footer(); ?>

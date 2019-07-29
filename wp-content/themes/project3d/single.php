@@ -40,8 +40,7 @@
 
        </div>
       </a>    
-
-<?php	}}	wp_reset_query();?>
+        <?php	}}	wp_reset_query();?>
    
     </div>
   </div>
