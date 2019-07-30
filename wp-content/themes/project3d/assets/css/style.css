@@ -95,7 +95,7 @@ Fixed button outside the fullpage.js wrapper
 }
 
 .titulo-banner {
-    z-index: 1;
+    z-index: 0;
     /* height: 100vh; */
     top: 150px;
 
@@ -137,7 +137,7 @@ Fixed button outside the fullpage.js wrapper
 
 .home h1 {
     color: #ffff;
-    z-index: 1;
+    z-index: 0;
     font-size: 2.3rem;
     width: 500px;
 
@@ -2040,4 +2040,8 @@ body>.dg {
     color: #fff;
     text-align: center;
     height: 500px;
+}
+
+.icon-responsive {
+    display: none;
 }
