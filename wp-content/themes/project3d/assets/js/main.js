@@ -69,7 +69,6 @@ $(".titulo-banner").slick({
     }
     ]
   });
-
 // carrousel product
 
 $(".slider-destacado").slick({
@@ -110,6 +109,40 @@ $(".slider-destacado").slick({
   });
 
 
+  $(".blog-slider").slick({
+
+    slidesToShow: 3,
+    speed: 1000,
+    slidesToScroll: 1,
+    autoplay: false,
+    speed: 1000,
+    infinite: true,
+    responsive: [
+    {
+     breakpoint: 1024,
+     settings: {
+      slidesToShow: 2,
+    }
+  },
+  {
+    breakpoint: 768,
+    settings: {
+      arrows: false,
+      centerMode: true,
+          // centerPadding: "40px",
+          slidesToShow: 1
+        }
+      },
+      
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+      ]
+    });
+  
 
 
 // scroll

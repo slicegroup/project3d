@@ -554,7 +554,7 @@ Fixed button outside the fullpage.js wrapper
     background: #ddd;
     padding: 0;
     margin: 0;
-    width: 400px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
 }
@@ -2044,4 +2044,12 @@ body>.dg {
 
 .icon-responsive {
     display: none;
+}
+
+.icons-menu-responsive {
+    display: none;
+}
+
+.news__item  p {
+    color: #fff;
 }

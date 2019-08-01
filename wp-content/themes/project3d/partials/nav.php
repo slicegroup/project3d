@@ -82,36 +82,36 @@
     <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav m-auto ">
         <li class="nav-item active">
-          <a class="nav-link eigth before after down" href="<?php bloginfo('url') ?>">Home
-            <span class="sr-only">(current)</span>
+          <a class="nav-link eigth before after down" href="<?php bloginfo('url') ?>">Home<i class='bx bx-home icons-menu-responsive '></i>
+            <span class="sr-only"></span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link eigth before after down" href="<?php bloginfo('url') ?>/index.php/about/">About</a>
+          <a class="nav-link eigth before after down" href="<?php bloginfo('url') ?>/index.php/about/">About<i class='bx bx-info-circle icons-menu-responsive' ></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link eigth before after down" href="#">Product</a>
+          <a class="nav-link eigth before after down" href="#">Product<i class='bx bx-shopping-bag icons-menu-responsive' ></i></a>
         </li>
         <a class="navbar-brand down" href="<?php bloginfo('url') ?>">
           <img class="logo-r" src="<?php echo get_template_directory_uri();?>/assets/img/Logo.png" width="60" alt="" />
         </a>
         <li class="nav-item">
-          <a class="nav-link eigth before after down" href="<?php bloginfo('url') ?>/index.php/blog/">Blog</a>
+          <a class="nav-link eigth before after down" href="<?php bloginfo('url') ?>/index.php/blog/">Blog <i class='bx bx-align-left icons-menu-responsive' ></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link eigth before after down" href="<?php bloginfo('url') ?>/index.php/faqs/">FAQs</a>
+          <a class="nav-link eigth before after down" href="<?php bloginfo('url') ?>/index.php/faqs/">FAQs<i class='bx bx-receipt icons-menu-responsive' ></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link eigth before after down" href="<?php bloginfo('url') ?>/index.php/contact/">Contact</a>
+          <a class="nav-link eigth before after down" href="<?php bloginfo('url') ?>/index.php/contact/">Contact <i class='bx bxs-contact icons-menu-responsive' ></i></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link eigth before after down" href="#"><i class='bx bx-cart' ></i></a>
+        <li class="nav-item box-i">
+          <a class="nav-link eigth before after down" href="#"><i class='bx bx-cart box-i' ></i></a>
         </li>
         <li class="nav-item">
           <a class="nav-link eigth before after down" data-toggle="modal" data-target="#exampleModalLong" href="#"><i class='bx bx-calendar-plus'></i></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link  eigth before after down" href="#"><i class='bx bx-search' ></i></a>
+        <li class="nav-item box-i">
+          <a class="nav-link  eigth before after down" href="#"><i class='bx bx-search box-i' ></i></a>
         </li>
       </ul>
 
