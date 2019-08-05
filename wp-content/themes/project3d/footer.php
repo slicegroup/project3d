@@ -1,26 +1,26 @@
 <div class="gradient-dark" ></div>
-   <!-- 5 -->
-    <div class="section footer-bg" id="section5">
-      <div class="f-title">
-        <h1>Contact Us</h1>
-      </div>
-      <footer class="r">
+<!-- 5 -->
+<div class="section footer-bg" id="section5">
+  <div class="f-title">
+    <h1>Contact Us</h1>
+  </div>
+  <footer class="r">
 
-        <div class="container footer">
-          <div style="  ">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="img/logo.png" width="50%" alt="" class="logo-footer">
-                <ul>
-                  <li><a href="">Terms and Conditions </a></li>
-                  <li><a href="">Privacy Policy</a></li>
-                  <li><a href=""> Shipping Policy</a></li>
-                  <li><a href=""> Help & Info</a></li>
-                </ul>
-              </div>
-              <div class="col-md-4">
-                <div class="container">
-                 <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 2, 'title' => false, 'description' => false ) ); ?>
+    <div class="container footer">
+      <div style="  ">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/logo.png" width="50%" alt="" class="logo-footer">
+            <ul>
+              <li><a href="">Terms and Conditions </a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href=""> Shipping Policy</a></li>
+              <li><a href=""> Help & Info</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <div class="container">
+             <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 2, 'title' => false, 'description' => false ) ); ?>
                   <!-- <div class="blog-btn">
                     <a href="#" class="cta">
                       <span>Send</span>
@@ -39,68 +39,99 @@
             </div>
             <p>Copyright © Project3D 2019 | Powered by Slice Group</p>
           </div>
-      </footer>
-  <video autoplay loop="" width="100%" muted=""
+        </footer>
+        <video class="video-n" autoplay loop="" width="100%" muted=""
         style="  min-width: 476px;
-  margin: 100px 0 0;
-  min-height: 476px;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  left: 0;
-  z-index: 1;
-  top: 200px;"
+        margin: 100px 0 0;
+        min-height: 476px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        left: 0;
+        z-index: 1;
+        top: 200px;"
         data-load-priority="0" src="<?php echo get_template_directory_uri();?>/assets/img/vv.webm"></video> 
+      </div>
+
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Rental application</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 3, 'title' => false, 'description' => false ) ); ?>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	<!-- Search model -->
+	<div class="search-model">
+
+		<div class="h-100 d-flex align-items-center justify-content-center">
+    <img class="modal-search" src="<?php echo get_template_directory_uri();?>/assets/img/Logo_project3d_11.svg" width="60" alt="" />
+
+      <div class="search-close-switch"><i class='bx bx-x'></i></div>
+			<form class="search-model-form">
+				<input type="text" id="search-input" placeholder="Search here.....">
+			</form>
+		</div>
   </div>
+  
+
+
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal fade modal-user" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
       <div class="modal-body">
-        <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 3, 'title' => false, 'description' => false ) ); ?>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+      <?php  get_template_part('page-my-account'); ?>
       </div>
     </div>
   </div>
 </div>
 
 
-  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.3.1.min.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/offcanvas.js"></script>
 
-  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/slick.min.js"></script>
-  <script defer src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/prueb.js"></script>
-  <script src="https://unpkg.com/tilt.js@1.1.19/dest/tilt.jquery.js"></script>
-  <script>
-    var containerEl = document.querySelector('.container');
 
-    var mixer = mixitup(containerEl, {
-      animation: {
+
+	<!-- Search model end -->
+
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/offcanvas.js"></script>
+
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/slick.min.js"></script>
+    <script defer src="<?php echo get_template_directory_uri(); ?>/assets/js/main.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/prueb.js"></script>
+    <script src="https://unpkg.com/tilt.js@1.1.19/dest/tilt.jquery.js"></script>
+    <script>
+      var containerEl = document.querySelector('.container');
+
+      var mixer = mixitup(containerEl, {
+        animation: {
         animateResizeContainer: false // required to prevent column algorithm bug
       }
     });
 
-    new WOW().init();
+      new WOW().init();
 
-    setTimeout(function () {
-      $('#eapps-instagram-feed').find('a').last().css('display', 'none')
-    }, 1500)
+      setTimeout(function () {
+        $('#eapps-instagram-feed').find('a').last().css('display', 'none')
+      }, 1500)
 
     // NB: See comments in stylesheet regarding fixes for chrome and safari "flickering"
   </script>
@@ -111,9 +142,9 @@
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/fullpage.min.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/examples.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/snap.svg-min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/classie.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/responsive.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/hamburger.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/classie.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/responsive.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/hamburger.js"></script>
 
 
   <script type="text/javascript">
@@ -124,7 +155,7 @@
       navigationPosition: "right",
       navigationTooltips: ["", "Product", "Categories", "Projects", "Blog", ""],
       fitToSection:false
-	
+      
 
   //     responsiveWidth: 0,
 	// responsiveHeight: 0,
@@ -137,19 +168,19 @@
     });
 
     //adding the action to the button
-$(document).on('click', '#moveTo', function(){
-  fullpage_api.moveTo('firstPage', 1);
-});
+    $(document).on('click', '#moveTo', function(){
+      fullpage_api.moveTo('firstPage', 1);
+    });
 
 
   </script>
 
-<?php wp_footer(); ?>
+  <?php wp_footer(); ?>
 </body>
 
 </html>
 
 
 
-   
-  
+
+
